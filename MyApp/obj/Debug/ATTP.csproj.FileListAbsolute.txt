@@ -1,0 +1,931 @@
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ATTP.exe.config
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ATTP.exe
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ATTP.pdb
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Data.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Images.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\EntityFramework.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Data.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\EntityFramework.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmChangePassword.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmLogin.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmMain.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmSplash.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmThietLapKetNoi.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmWaitForm.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCDanhThuXN.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau1A.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau1B.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau2.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau3.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau5.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCSoXetNghiem.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBenhNhan.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBenhNhanDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmChiDinhDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmChiDinhDHA.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmChiDinhDv.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDichVu.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDichVuDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmKqHADtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmKqXnDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmKy.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNhanVien.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNhanVienDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmSoXn.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmSoXnDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmThietBi.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmThietBiDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmXetNghiem.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmXetNghiemDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmXetNghiemMap.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmXetNghiemMapDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.InterfaceInheritance.FrmBase.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Properties.Resources.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Report.rptTraKqAnh.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Report.rptTraKetQua.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Report.rptChiDinh.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.csproj.GenerateResource.cache
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.exe.licenses
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.csproj.CoreCompileInputs.cache
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.csproj.CopyComplete
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.exe
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.pdb
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.csproj.AssemblyReference.cache
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNCC.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNCCDtl.resources
+D:\Working\repos\MyDev\8.QLATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDmCSKD.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ATTP.exe.config
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ATTP.exe
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ATTP.pdb
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Data.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Images.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\EntityFramework.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Data.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\EntityFramework.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmChangePassword.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmLogin.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmMain.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmSplash.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmThietLapKetNoi.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.FrmWaitForm.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCDanhThuXN.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau1A.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau1B.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau2.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau3.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCMau5.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBCSoXetNghiem.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBenhNhan.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmBenhNhanDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmChiDinhDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmChiDinhDHA.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmChiDinhDv.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDichVu.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDichVuDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDmCSKD.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmKqHADtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmKqXnDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmKy.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNCC.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNCCDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNhanVien.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNhanVienDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmSoXn.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmSoXnDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmThietBi.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmThietBiDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmXetNghiem.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmXetNghiemDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmXetNghiemMap.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmXetNghiemMapDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.InterfaceInheritance.FrmBase.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Properties.Resources.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Report.rptTraKqAnh.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Report.rptTraKetQua.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Report.rptChiDinh.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.csproj.GenerateResource.cache
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.exe.licenses
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.csproj.CoreCompileInputs.cache
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.csproj.CopyComplete
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.exe
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.pdb
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDmCSKDDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDmTPDLDtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDmTPDL.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNLMau1A.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNLMau1B.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNLMau2.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNLMau3.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNLMau5.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDmMauTADtl.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmDmMauTA.resources
+D:\Working\repos\MyDev\9.ATTP\MyApp-ATTP-v5-ts\MyApp\obj\Debug\ATTP.csproj.AssemblyReference.cache
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ATTP.exe.config
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ATTP.exe
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ATTP.pdb
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Data.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Images.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\EntityFramework.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Data.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\EntityFramework.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.FrmChangePassword.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.FrmLogin.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.FrmMain.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.FrmSplash.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.FrmThietLapKetNoi.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.FrmWaitForm.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmKy.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNCC.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNCCDtl.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNhanVien.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Func.FrmNhanVienDtl.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.InterfaceInheritance.FrmBase.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Properties.Resources.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Report.rptTraKqAnh.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Report.rptTraKetQua.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.Report.rptChiDinh.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.csproj.GenerateResource.cache
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.exe.licenses
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.csproj.CoreCompileInputs.cache
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.csproj.CopyComplete
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.exe
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v5-ts\MyApp\obj\Debug\ATTP.pdb
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ATTP.exe.config
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ATTP.exe
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ATTP.pdb
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Data.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Images.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\EntityFramework.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Data.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\EntityFramework.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.FrmChangePassword.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.FrmLogin.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.FrmMain.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.FrmSplash.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.FrmThietLapKetNoi.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.FrmWaitForm.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Func.FrmKy.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Func.FrmNCC.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Func.FrmNCCDtl.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Func.FrmNhanVien.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Func.FrmNhanVienDtl.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.InterfaceInheritance.FrmBase.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Properties.Resources.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Report.rptTraKqAnh.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Report.rptTraKetQua.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.Report.rptChiDinh.resources
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.csproj.GenerateResource.cache
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.exe.licenses
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.csproj.CoreCompileInputs.cache
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.csproj.CopyComplete
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.exe
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.pdb
+D:\Working\repos\MyDev\10. XML130\MyApp-130-v1-ts\MyApp\obj\Debug\ATTP.csproj.AssemblyReference.cache

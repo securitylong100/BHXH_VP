@@ -1,0 +1,431 @@
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\EasyPOS.exe.config
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\EasyPOS.exe
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\EasyPOS.pdb
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Images.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Xpo.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.CodeParser.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Xpo.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCheck.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCheckDtl.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCompanys.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCompanyDtl.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCustomerDtl.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCustomers.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmImportCustomer.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmLogin.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmMain.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmQr.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmReport.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmScreening.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmScreeningDtl.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmWaitForm.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.InterfaceInheritance.FrmBase.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.Properties.Resources.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.Report.RptXacNhanTiem.resources
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.exe.licenses
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.exe
+C:\Users\Admin\Desktop\New folder (3)---------4\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.pdb
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\EasyPOS.exe.config
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\EasyPOS.exe
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\EasyPOS.pdb
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.BonusSkins.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Data.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Images.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Utils.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Xpo.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\EntityFramework.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.CodeParser.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Data.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Office.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Utils.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Xpo.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraBars.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\EntityFramework.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmChangePassword.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCheck.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCheckDtl.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCompanys.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCompanyDtl.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCustomerDtl.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmCustomers.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmImportCustomer.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmLogin.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmMain.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmQr.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmReport.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmScreening.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmScreeningDtl.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.FrmWaitForm.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.InterfaceInheritance.FrmBase.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.Properties.Resources.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.Report.RptTheoDoiSauTiem.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.Report.RptXacNhanTiem.resources
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.csproj.GenerateResource.cache
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.exe.licenses
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.csproj.CoreCompileInputs.cache
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.csproj.CopyComplete
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.exe
+D:\WORK\DKTiemCovid19\MyApp\MyApp\obj\Debug\EasyPOS.pdb
