@@ -47,7 +47,8 @@
         public static readonly string DmCSKCB_KhoaPhong = "Danh mục khoa phòng";
         public static readonly string DmCSKCB_TTB = "Danh mục trang thiết bị";
 
-
+        //xml
+        public static readonly string ImportXMLtoDB = "Nhập XML vào CSDL";
 
 
 

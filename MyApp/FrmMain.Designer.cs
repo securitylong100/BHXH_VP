@@ -100,7 +100,7 @@
             this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
             this.barSubItem4 = new DevExpress.XtraBars.BarSubItem();
             this.barSubItem7 = new DevExpress.XtraBars.BarSubItem();
-            this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_importXMLtoDB = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
             this.btnBuoc1A = new DevExpress.XtraBars.BarButtonItem();
             this.btnBuoc1B = new DevExpress.XtraBars.BarButtonItem();
@@ -208,7 +208,7 @@
             this.btnDmQD130_NguonThanhToan,
             this.btnDmQD130_PhuongPhapVoCam,
             this.barButtonItem23,
-            this.barButtonItem24,
+            this.btn_importXMLtoDB,
             this.barButtonItem25});
             this.barManager.MaxItemId = 127;
             this.barManager.StatusBar = this.bar1;
@@ -863,22 +863,24 @@
             this.barSubItem7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barSubItem7.ImageOptions.Image")));
             this.barSubItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barSubItem7.ImageOptions.LargeImage")));
             this.barSubItem7.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem24),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btn_importXMLtoDB),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem25)});
             this.barSubItem7.Name = "barSubItem7";
             this.barSubItem7.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
             // barButtonItem24
             // 
-            this.barButtonItem24.Caption = "Giám định XML 130";
-            this.barButtonItem24.Id = 125;
-            this.barButtonItem24.Name = "barButtonItem24";
+            this.btn_importXMLtoDB.Caption = "Nhập XML vào CSDL";
+            this.btn_importXMLtoDB.Id = 125;
+            this.btn_importXMLtoDB.Name = "btn_importXMLtoDB";
+            this.btn_importXMLtoDB.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem24_ItemClick);
             // 
             // barButtonItem25
             // 
             this.barButtonItem25.Caption = "barButtonItem25";
             this.barButtonItem25.Id = 126;
             this.barButtonItem25.Name = "barButtonItem25";
+            
             // 
             // btnBuoc1A
             // 
@@ -1027,7 +1029,7 @@
         private DevExpress.XtraBars.BarButtonItem btnDmQD130_NguonThanhToan;
         private DevExpress.XtraBars.BarButtonItem btnDmQD130_PhuongPhapVoCam;
         private DevExpress.XtraBars.BarButtonItem barButtonItem23;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem24;
+        private DevExpress.XtraBars.BarButtonItem btn_importXMLtoDB;
         private DevExpress.XtraBars.BarButtonItem barButtonItem25;
     }
 }

@@ -7,6 +7,7 @@ using XML130.EasyUtils;
 using XML130.Func;
 using XML130.InterfaceInheritance;
 using XML130.Libraries;
+using XML130.XML;
 
 namespace XML130
 {
@@ -888,6 +889,26 @@ namespace XML130
                 f.Name = "FrmDmCSKCB_TTB";
                 e.Item.Tag = f.Name;
                 f.Text = EasyMessageGlobal.DmCSKCB_TTB;
+                f.MdiParent = this;
+                f.Show();
+                EasyLoadWait.CloseWaitForm();
+            }
+        }
+
+        private void barButtonItem24_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            string typeName;
+            typeName = e.Item.Tag == null ? string.Empty : e.Item.Tag.ToString();
+            Form f = GetMdiFormByName(typeName);
+            if (f != null)
+                f.BringToFront();
+            else
+            {
+                EasyLoadWait.ShowWaitForm();
+                f = new FrmImportXMLtoDB();
+                f.Name = "FrmImportXMLtoDB";
+                e.Item.Tag = f.Name;
+                f.Text = EasyMessageGlobal.ImportXMLtoDB;
                 f.MdiParent = this;
                 f.Show();
                 EasyLoadWait.CloseWaitForm();
