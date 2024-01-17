@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using XML130.EasyUtils;
 
@@ -359,6 +356,32 @@ namespace XML130.Libraries
             {
                 string str = string.Format("{0:dd/MM/yyyy hh:mm:ss tt}\t:\t{1}", (object)DateTime.Now, (object)description);
                 streamWriter.WriteLine(str);
+            }
+        }
+
+        public static DataTable GetTableInfo(string table) => GetTableInfo(SQLHelper.strConn, table);
+        public static DataTable GetTableInfo(string connection, string table)
+        {
+            if (connection == string.Empty)
+                connection = SQLHelper.strConn;
+            string commandText = string.Format("SET FMTONLY ON; select * from {0} where 2=1; SET FMTONLY OFF", table);
+            SqlCommand sqlCommand = new SqlCommand(commandText, new SqlConnection(SQLHelper.Connectionstring));
+            sqlCommand.CommandType = CommandType.Text;
+            sqlCommand.CommandTimeout = 200;
+            sqlCommand.Connection.Open();
+            try
+            {
+                SqlDataReader reader = sqlCommand.ExecuteReader();
+                return reader.GetSchemaTable();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+            finally
+            {
+                sqlCommand.Connection.Close();
             }
         }
     }
