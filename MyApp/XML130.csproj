@@ -338,11 +338,11 @@
       <DependentUpon>rptChiDinh.cs</DependentUpon>
     </Compile>
     <Compile Include="System.cs" />
-    <Compile Include="XML\FrmImportXMLtoDB.cs">
+    <Compile Include="XML\FrmDmQD130_ImportXml.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="XML\FrmImportXMLtoDB.Designer.cs">
-      <DependentUpon>FrmImportXMLtoDB.cs</DependentUpon>
+    <Compile Include="XML\FrmDmQD130_ImportXml.Designer.cs">
+      <DependentUpon>FrmDmQD130_ImportXml.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FrmChangePassword.resx">
       <DependentUpon>FrmChangePassword.cs</DependentUpon>
@@ -448,8 +448,8 @@
     <EmbeddedResource Include="Report\rptChiDinh.resx">
       <DependentUpon>rptChiDinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="XML\FrmImportXMLtoDB.resx">
-      <DependentUpon>FrmImportXMLtoDB.cs</DependentUpon>
+    <EmbeddedResource Include="XML\FrmDmQD130_ImportXml.resx">
+      <DependentUpon>FrmDmQD130_ImportXml.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -1,21 +1,44 @@
-﻿using DevExpress.XtraTreeList.Nodes;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Data;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using XML130.InterfaceInheritance;
+using XML130.EasyHelper;
+using XML130.EasyUtils;
 using XML130.Libraries;
 
 namespace XML130.XML
 {
-    public partial class FrmImportXMLtoDB : FrmBase
+    public partial class FrmDmQD130_ImportXml : XtraForm
     {
-        public FrmImportXMLtoDB()
+        protected EasyGridStyleHelper EasyGridStyleHelper;
+
+        public FrmDmQD130_ImportXml()
         {
             InitializeComponent();
-            btnImportXml.ItemClick += BtnImportXml_ItemClick;
-        }
+            EasyGridStyleHelper = new EasyGridStyleHelper(this, customGridControl,
+                customGridView, false, true, false, false, false, false, true, true);
 
+        }
+        protected virtual void OnInit()
+        {
+            try
+            {
+                DataTable dataTable = SQLHelper.ExecuteDataTable("SELECT MA_LK,MACSKCB,NGAYLAP,SOLUONGHOSO FROM XML_GIAMDINHHS");
+                customGridControl.DataSource = dataTable;
+
+                EasyCommon.BestFitColumnsGridView(customGridView);
+            }
+            catch (Exception exception)
+            {
+                EasyDialog.ShowErrorDialog("Phát sinh lỗi. (" + exception.Message + ")");
+            }
+        }
+        protected virtual void OnReload()
+        {
+            OnInit();
+        }
         protected virtual void OnImportXml()
         {
             OpenFileDialog openFolder = new OpenFileDialog()
@@ -27,67 +50,78 @@ namespace XML130.XML
             };
             if (openFolder.ShowDialog() == DialogResult.OK)
             {
-                txtLogs.Clear();
-                treeList.Nodes.Clear();
-                string folderPath = Path.GetDirectoryName(openFolder.FileName);
-                string[] xmlFiles = Directory.GetFiles(folderPath, "*.xml", SearchOption.AllDirectories);
-                foreach (string xmlFile in xmlFiles)
+                lbLogs.Items.Clear();
+                EasyLoadWait.ShowWaitForm("Đang import", this);
+                try
                 {
-                    #region LẤY THÔNG TIN HỒ SƠ
-                    string MA_LK = string.Empty;
-                    string MACSKCB = string.Empty;
-                    string NGAYLAP = string.Empty;
-                    string SOLUONGHOSO = string.Empty;
-                    DataSet dsGIAMDINHHS = new DataSet();
-                    dsGIAMDINHHS.ReadXml(xmlFile);
-                    if (dsGIAMDINHHS.Tables.Contains("THONGTINDONVI"))
+                    string folderPath = Path.GetDirectoryName(openFolder.FileName);
+                    string[] xmlFiles = Directory.GetFiles(folderPath, "*.xml", SearchOption.AllDirectories);
+                    foreach (string xmlFile in xmlFiles)
                     {
-                        MACSKCB = dsGIAMDINHHS.Tables["THONGTINDONVI"].Rows[0]["MACSKCB"].ToString();
-                    }
-                    if (dsGIAMDINHHS.Tables.Contains("THONGTINHOSO"))
-                    {
-                        NGAYLAP = dsGIAMDINHHS.Tables["THONGTINHOSO"].Rows[0]["NGAYLAP"].ToString();
-                        SOLUONGHOSO = dsGIAMDINHHS.Tables["THONGTINHOSO"].Rows[0]["SOLUONGHOSO"].ToString();
-                    }
-                    #endregion
-                    #region ĐỌC FILE HỒ SƠ
-                    if (dsGIAMDINHHS.Tables.Contains("FILEHOSO") && dsGIAMDINHHS.Tables["FILEHOSO"].Rows.Count > 0)
-                    {
-                        TreeListNode root = treeList.Nodes.Add(xmlFile);
-                        foreach (DataRow drFILEHOSO in dsGIAMDINHHS.Tables["FILEHOSO"].Rows)
+                        #region LẤY THÔNG TIN HỒ SƠ
+                        string MA_LK = string.Empty;
+                        string MACSKCB = string.Empty;
+                        string NGAYLAP = string.Empty;
+                        string SOLUONGHOSO = string.Empty;
+                        DataSet dsGIAMDINHHS = new DataSet();
+                        dsGIAMDINHHS.ReadXml(xmlFile);
+                        if (dsGIAMDINHHS.Tables.Contains("THONGTINDONVI"))
                         {
-                            string xmlType = drFILEHOSO["LOAIHOSO"].ToString();
-                            string xmlContent = drFILEHOSO["NOIDUNGFILE"].ToString();
-                            InsertTable(root, xmlType, xmlContent, out MA_LK);
+                            MACSKCB = dsGIAMDINHHS.Tables["THONGTINDONVI"].Rows[0]["MACSKCB"].ToString();
                         }
-                        #region CẬP NHẬT HỒ SƠ GIÁM ĐỊNH
-                        StringBuilder sb = new StringBuilder();
-                        sb.Append("INSERT INTO XML_GIAMDINHHS ([MA_LK],[MACSKCB],[NGAYLAP],[SOLUONGHOSO]) ");
-                        sb.AppendFormat("SELECT '{0}','{1}',CONVERT(DATE,'{2}'),'{3}' ", MA_LK, MACSKCB, NGAYLAP, SOLUONGHOSO);
-                        sb.AppendFormat("WHERE NOT EXISTS ( SELECT 1 FROM XML_GIAMDINHHS WHERE MA_LK='{0}'); ", MA_LK);
-                        int result = SQLHelper.ExecuteNonQuery(sb.ToString());
-                        if (result > 0)
+                        if (dsGIAMDINHHS.Tables.Contains("THONGTINHOSO"))
                         {
-                            root.Checked = true;
-                            txtLogs.AppendText(string.Format("Thêm dữ liệu hồ sơ: {0} hoàn tất!\n", MA_LK));
+                            NGAYLAP = dsGIAMDINHHS.Tables["THONGTINHOSO"].Rows[0]["NGAYLAP"].ToString();
+                            SOLUONGHOSO = dsGIAMDINHHS.Tables["THONGTINHOSO"].Rows[0]["SOLUONGHOSO"].ToString();
                         }
-                        else
+                        #endregion
+                        #region ĐỌC FILE HỒ SƠ
+                        if (dsGIAMDINHHS.Tables.Contains("FILEHOSO") && dsGIAMDINHHS.Tables["FILEHOSO"].Rows.Count > 0)
                         {
-                            root.Checked = false;
-                            txtLogs.AppendText(string.Format("Thêm dữ liệu hồ sơ: {0} thất bại!\n", MA_LK));
+                            foreach (DataRow drFILEHOSO in dsGIAMDINHHS.Tables["FILEHOSO"].Rows)
+                            {
+                                string xmlType = drFILEHOSO["LOAIHOSO"].ToString();
+                                string xmlContent = drFILEHOSO["NOIDUNGFILE"].ToString();
+                                InsertTable(xmlType, xmlContent, out MA_LK);
+                            }
+                            #region CẬP NHẬT HỒ SƠ GIÁM ĐỊNH
+                            StringBuilder sb = new StringBuilder();
+                            sb.Append("INSERT INTO XML_GIAMDINHHS ([MA_LK],[MACSKCB],[NGAYLAP],[SOLUONGHOSO]) ");
+                            sb.AppendFormat("SELECT '{0}','{1}',CONVERT(DATE,'{2}'),'{3}' ", MA_LK, MACSKCB, NGAYLAP, SOLUONGHOSO);
+                            sb.AppendFormat("WHERE NOT EXISTS ( SELECT 1 FROM XML_GIAMDINHHS WHERE MA_LK='{0}'); ", MA_LK);
+                            int result = SQLHelper.ExecuteNonQuery(sb.ToString());
+                            if (result > 0)
+                            {
+                                AddLog(string.Format("Thêm thông tin giám định hồ sơ hoàn tất!\nHồ sơ: {0}\nĐường dẫn:{1}", MA_LK, xmlFile));
+                            }
+                            else
+                            {
+                                AddErrorLog(string.Format("Thêm thông tin giám định hồ sơ thất bại!\nHồ sơ: {0}\nĐường dẫn:{1}", MA_LK, xmlFile));
+                            }
+                            #endregion
                         }
                         #endregion
                     }
-                    #endregion
+                }
+                finally
+                {
+                    EasyLoadWait.CloseWaitForm();
                 }
             }
         }
-
-        private void BtnImportXml_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        protected virtual void OnExportXml()
         {
-            OnImportXml();
         }
-        private void InsertTable(TreeListNode root, string xmlType, string xmlContent, out string MA_LK)
+
+        private void AddLog(string message)
+        {
+            lbLogs.Items.Add($"<color=Blue>[{DateTime.Now:HH:mm:ss}] {message}</color>");
+        }
+        private void AddErrorLog(string message)
+        {
+            lbLogs.Items.Add($"<color=Red>[{DateTime.Now:HH:mm:ss}] {message}</color>");
+        }
+        private void InsertTable(string xmlType, string xmlContent, out string MA_LK)
         {
             MA_LK = string.Empty;
             DataTable dtInfo = SQLHelper.GetTableInfo(xmlType);
@@ -99,7 +133,6 @@ namespace XML130.XML
                     ds.ReadXml(stream);
                     if (ds.Tables.Count > 0)
                     {
-                        TreeListNode parentNode = root.Nodes.Add(xmlType);
                         foreach (DataTable dt in ds.Tables)
                         {
                             if (dt.Columns.Contains("MA_LK") && dt.Rows.Count > 0)
@@ -151,12 +184,11 @@ namespace XML130.XML
                                             else if (!isNullable)
                                             {
                                                 isErrorRow = true;
-                                                txtLogs.AppendText(string.Format("[{0} - {1}] Cột {2} không được để trống!\n", MA_LK, xmlType, colName));
+                                                AddErrorLog(string.Format("Cột {0} không được để trống!\nHồ sơ: {1}\nLoại hồ sơ: {2}", colName, MA_LK, xmlType));
                                             }
                                         }
                                     }
                                     #endregion
-                                    TreeListNode node = parentNode.Nodes.Add(string.Format("{0}_{1}", MA_LK, STT));
                                     if (!isErrorRow)
                                     {
                                         #region THỰC THI QUERY INSERT
@@ -171,9 +203,8 @@ namespace XML130.XML
                                         int result = SQLHelper.ExecuteNonQuery(sb.ToString());
                                         if (result < 0)
                                         {
-                                            txtLogs.AppendText(string.Format("[{0} - {1}] Thêm dữ liệu STT: {2} thất bại!\n", MA_LK, xmlType, STT));
+                                            AddErrorLog(string.Format("Thêm dữ liệu thất bại!\nHồ sơ: {0}\nLoại hồ sơ: {1}\n Số thứ tự: {2}", MA_LK, xmlType, STT));
                                         }
-                                        node.Checked = result > 0;
                                         #endregion
                                     }
                                 }
@@ -182,6 +213,20 @@ namespace XML130.XML
                     }
                 }
             }
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+            OnInit();
+        }
+        private void btnImportXmlFolder_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            OnImportXml();
+        }
+        private void btnExportXml_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            OnExportXml();
         }
     }
 }

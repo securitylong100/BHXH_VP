@@ -905,8 +905,8 @@ namespace XML130
             else
             {
                 EasyLoadWait.ShowWaitForm();
-                f = new FrmImportXMLtoDB();
-                f.Name = "FrmImportXMLtoDB";
+                f = new FrmDmQD130_ImportXml();
+                f.Name = "FrmDmQD130_ImportXml";
                 e.Item.Tag = f.Name;
                 f.Text = EasyMessageGlobal.ImportXMLtoDB;
                 f.MdiParent = this;

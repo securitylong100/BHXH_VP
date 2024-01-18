@@ -980,7 +980,6 @@ G:\03.Git_IFM\BHXH_VP\MyApp\obj\Debug\XML130.Report.rptTraKqAnh.resources
 G:\03.Git_IFM\BHXH_VP\MyApp\obj\Debug\XML130.Report.rptTraKetQua.resources
 G:\03.Git_IFM\BHXH_VP\MyApp\obj\Debug\XML130.Report.rptChiDinh.resources
 G:\03.Git_IFM\BHXH_VP\MyApp\obj\Debug\XML130.XML.FrmDmQD130_ImportXML.resources
-G:\03.Git_IFM\BHXH_VP\MyApp\obj\Debug\XML130.XML.FrmImportXMLtoDB.resources
 G:\03.Git_IFM\BHXH_VP\MyApp\obj\Debug\XML130.csproj.GenerateResource.cache
 G:\03.Git_IFM\BHXH_VP\MyApp\obj\Debug\XML130.exe.licenses
 G:\03.Git_IFM\BHXH_VP\MyApp\obj\Debug\XML130.csproj.CoreCompileInputs.cache
