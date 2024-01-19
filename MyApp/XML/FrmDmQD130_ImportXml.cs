@@ -203,7 +203,7 @@ namespace XML130.XML
                                             else if (!isNullable)
                                             {
                                                 isOk = false;
-                                                if (isFirstRowError)
+                                                if (isFirstRowError)    
                                                 {
                                                     isFirstRowError = false;
                                                     AddErrorLog(string.Format("Mã liên kết: {0}", MA_LK));
@@ -248,7 +248,7 @@ namespace XML130.XML
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-           // OnInit();
+            OnInit();
         }
         private void btnImport_Click(object sender, EventArgs e)
         {
@@ -260,7 +260,7 @@ namespace XML130.XML
         }
         private void btnCheckDB_Click(object sender, EventArgs e)
         {
-
+           
         }
         private void btnSaveDB_Click(object sender, EventArgs e)
         {

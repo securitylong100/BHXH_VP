@@ -121,6 +121,9 @@
             // 
             this.gv_data.GridControl = this.gc_data;
             this.gv_data.Name = "gv_data";
+            this.gv_data.OptionsBehavior.EditingMode = DevExpress.XtraGrid.Views.Grid.GridEditingMode.EditForm;
+            this.gv_data.OptionsEditForm.ActionOnModifiedRowChange = DevExpress.XtraGrid.Views.Grid.EditFormModifiedAction.Save;
+            this.gv_data.OptionsEditForm.ShowOnDoubleClick = DevExpress.Utils.DefaultBoolean.True;
             this.gv_data.OptionsView.ColumnAutoWidth = false;
             // 
             // btnCheckDB
