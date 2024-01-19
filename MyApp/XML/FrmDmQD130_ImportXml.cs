@@ -136,7 +136,7 @@ namespace XML130.XML
         }
         private bool InsertTable(string xmlType, string xmlContent, out string MA_LK)
         {
-            bool isError = false;
+            bool isOk = true;
             MA_LK = string.Empty;
             DataTable dtInfo = SQLHelper.GetTableInfo(xmlType);
             if (dtInfo != null && dtInfo.Rows.Count > 0)
@@ -197,7 +197,7 @@ namespace XML130.XML
                                             }
                                             else if (!isNullable)
                                             {
-                                                isError = true;
+                                                isOk = false;
                                                 if (isFirstRowError)
                                                 {
                                                     isFirstRowError = false;
@@ -209,7 +209,7 @@ namespace XML130.XML
                                         }
                                     }
                                     #endregion
-                                    if (!isError)
+                                    if (isOk)
                                     {
                                         #region THỰC THI QUERY INSERT
                                         StringBuilder sb = new StringBuilder();
@@ -236,7 +236,7 @@ namespace XML130.XML
                     }
                 }
             }
-            return isError;
+            return isOk;
         }
         #endregion
         #region Events
