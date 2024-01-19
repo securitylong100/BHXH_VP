@@ -22,6 +22,10 @@ namespace XML130.XML
         {
             try
             {
+                gc_data.DataSource = null;
+                gv_data.Columns.Clear();
+                gv_data.RefreshData();
+              
                 lvLogs.Items.Clear();
                 string table = "_GIAMDINHHS";
                 if (!string.IsNullOrWhiteSpace(txtXmlType.Text))
@@ -30,7 +34,8 @@ namespace XML130.XML
                 }
                 string sql = string.Format("SELECT * FROM XML{0} WHERE '{1}'='' OR MA_LK='{1}'", table, txtMaLK.Text);
                 DataTable dataTable = SQLHelper.ExecuteDataTable(sql);
-                dataGridView.DataSource = dataTable;
+                gc_data.DataSource = dataTable;
+                gv_data.BestFitColumns();
             }
             catch (Exception exception)
             {
@@ -243,7 +248,7 @@ namespace XML130.XML
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            OnInit();
+           // OnInit();
         }
         private void btnImport_Click(object sender, EventArgs e)
         {
@@ -255,6 +260,7 @@ namespace XML130.XML
         }
         private void btnCheckDB_Click(object sender, EventArgs e)
         {
+
         }
         private void btnSaveDB_Click(object sender, EventArgs e)
         {

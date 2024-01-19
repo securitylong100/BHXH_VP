@@ -30,7 +30,8 @@
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.gc_data = new XML130.CustomGridLookUpEdit.CustomGridControl();
+            this.gv_data = new XML130.CustomGridLookUpEdit.CustomGridView();
             this.btnCheckDB = new System.Windows.Forms.Button();
             this.btnSaveDB = new System.Windows.Forms.Button();
             this.btnExportAPI = new System.Windows.Forms.Button();
@@ -49,13 +50,15 @@
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gc_data)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gv_data)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -66,8 +69,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.lvLogs);
-            this.splitContainer1.Size = new System.Drawing.Size(1160, 639);
-            this.splitContainer1.SplitterDistance = 480;
+            this.splitContainer1.Size = new System.Drawing.Size(994, 519);
+            this.splitContainer1.SplitterDistance = 389;
+            this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -79,7 +83,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.Controls.Add(this.dataGridView, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.gc_data, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.btnCheckDB, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnSaveDB, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnExportAPI, 4, 0);
@@ -92,33 +96,41 @@
             this.tableLayoutPanel1.Controls.Add(this.txtMaLK, 4, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1160, 480);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(994, 389);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
-            // dataGridView
+            // gc_data
             // 
-            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tableLayoutPanel1.SetColumnSpan(this.dataGridView, 6);
-            this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView.Location = new System.Drawing.Point(3, 74);
-            this.dataGridView.Name = "dataGridView";
-            this.dataGridView.RowHeadersWidth = 51;
-            this.dataGridView.RowTemplate.Height = 24;
-            this.dataGridView.Size = new System.Drawing.Size(1154, 403);
-            this.dataGridView.TabIndex = 0;
+            this.tableLayoutPanel1.SetColumnSpan(this.gc_data, 6);
+            this.gc_data.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gc_data.Location = new System.Drawing.Point(3, 61);
+            this.gc_data.MainView = this.gv_data;
+            this.gc_data.Name = "gc_data";
+            this.gc_data.Size = new System.Drawing.Size(988, 325);
+            this.gc_data.TabIndex = 11;
+            this.gc_data.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gv_data});
+            // 
+            // gv_data
+            // 
+            this.gv_data.GridControl = this.gc_data;
+            this.gv_data.Name = "gv_data";
+            this.gv_data.OptionsView.ColumnAutoWidth = false;
             // 
             // btnCheckDB
             // 
             this.btnCheckDB.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnCheckDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCheckDB.Location = new System.Drawing.Point(389, 3);
+            this.btnCheckDB.Location = new System.Drawing.Point(333, 2);
+            this.btnCheckDB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCheckDB.Name = "btnCheckDB";
-            this.btnCheckDB.Size = new System.Drawing.Size(187, 36);
+            this.btnCheckDB.Size = new System.Drawing.Size(159, 29);
             this.btnCheckDB.TabIndex = 1;
             this.btnCheckDB.Text = "Check DB";
             this.btnCheckDB.UseVisualStyleBackColor = true;
@@ -128,9 +140,10 @@
             // 
             this.btnSaveDB.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnSaveDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveDB.Location = new System.Drawing.Point(582, 3);
+            this.btnSaveDB.Location = new System.Drawing.Point(498, 2);
+            this.btnSaveDB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSaveDB.Name = "btnSaveDB";
-            this.btnSaveDB.Size = new System.Drawing.Size(187, 36);
+            this.btnSaveDB.Size = new System.Drawing.Size(159, 29);
             this.btnSaveDB.TabIndex = 2;
             this.btnSaveDB.Text = "Save to DB";
             this.btnSaveDB.UseVisualStyleBackColor = true;
@@ -140,9 +153,10 @@
             // 
             this.btnExportAPI.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnExportAPI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExportAPI.Location = new System.Drawing.Point(775, 3);
+            this.btnExportAPI.Location = new System.Drawing.Point(663, 2);
+            this.btnExportAPI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExportAPI.Name = "btnExportAPI";
-            this.btnExportAPI.Size = new System.Drawing.Size(187, 36);
+            this.btnExportAPI.Size = new System.Drawing.Size(159, 29);
             this.btnExportAPI.TabIndex = 3;
             this.btnExportAPI.Text = "Export API";
             this.btnExportAPI.UseVisualStyleBackColor = true;
@@ -152,9 +166,10 @@
             // 
             this.btnSendAPI.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnSendAPI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSendAPI.Location = new System.Drawing.Point(968, 3);
+            this.btnSendAPI.Location = new System.Drawing.Point(828, 2);
+            this.btnSendAPI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSendAPI.Name = "btnSendAPI";
-            this.btnSendAPI.Size = new System.Drawing.Size(189, 36);
+            this.btnSendAPI.Size = new System.Drawing.Size(163, 29);
             this.btnSendAPI.TabIndex = 4;
             this.btnSendAPI.Text = "Send API";
             this.btnSendAPI.UseVisualStyleBackColor = true;
@@ -164,9 +179,10 @@
             // 
             this.btnImport.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnImport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImport.Location = new System.Drawing.Point(3, 3);
+            this.btnImport.Location = new System.Drawing.Point(3, 2);
+            this.btnImport.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnImport.Name = "btnImport";
-            this.btnImport.Size = new System.Drawing.Size(187, 36);
+            this.btnImport.Size = new System.Drawing.Size(159, 29);
             this.btnImport.TabIndex = 5;
             this.btnImport.Text = "Import Xml";
             this.btnImport.UseVisualStyleBackColor = true;
@@ -176,9 +192,10 @@
             // 
             this.btnLoadDB.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnLoadDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoadDB.Location = new System.Drawing.Point(196, 3);
+            this.btnLoadDB.Location = new System.Drawing.Point(168, 2);
+            this.btnLoadDB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLoadDB.Name = "btnLoadDB";
-            this.btnLoadDB.Size = new System.Drawing.Size(187, 36);
+            this.btnLoadDB.Size = new System.Drawing.Size(159, 29);
             this.btnLoadDB.TabIndex = 6;
             this.btnLoadDB.Text = "Load DB";
             this.btnLoadDB.UseVisualStyleBackColor = true;
@@ -188,9 +205,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(3, 42);
+            this.label1.Location = new System.Drawing.Point(3, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 29);
+            this.label1.Size = new System.Drawing.Size(159, 25);
             this.label1.TabIndex = 7;
             this.label1.Text = "XML Table";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -199,9 +216,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(582, 42);
+            this.label2.Location = new System.Drawing.Point(498, 33);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 29);
+            this.label2.Size = new System.Drawing.Size(159, 25);
             this.label2.TabIndex = 8;
             this.label2.Text = "Mã liên kết (MA_LK)";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -209,17 +226,19 @@
             // txtXmlType
             // 
             this.txtXmlType.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtXmlType.Location = new System.Drawing.Point(196, 45);
+            this.txtXmlType.Location = new System.Drawing.Point(168, 35);
+            this.txtXmlType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtXmlType.Name = "txtXmlType";
-            this.txtXmlType.Size = new System.Drawing.Size(187, 23);
+            this.txtXmlType.Size = new System.Drawing.Size(159, 21);
             this.txtXmlType.TabIndex = 9;
             // 
             // txtMaLK
             // 
             this.txtMaLK.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtMaLK.Location = new System.Drawing.Point(775, 45);
+            this.txtMaLK.Location = new System.Drawing.Point(663, 35);
+            this.txtMaLK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMaLK.Name = "txtMaLK";
-            this.txtMaLK.Size = new System.Drawing.Size(187, 23);
+            this.txtMaLK.Size = new System.Drawing.Size(159, 21);
             this.txtMaLK.TabIndex = 10;
             // 
             // lvLogs
@@ -232,9 +251,10 @@
             this.lvLogs.GridLines = true;
             this.lvLogs.HideSelection = false;
             this.lvLogs.Location = new System.Drawing.Point(0, 0);
+            this.lvLogs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lvLogs.Name = "lvLogs";
             this.lvLogs.ShowGroups = false;
-            this.lvLogs.Size = new System.Drawing.Size(1160, 155);
+            this.lvLogs.Size = new System.Drawing.Size(994, 127);
             this.lvLogs.TabIndex = 0;
             this.lvLogs.UseCompatibleStateImageBehavior = false;
             this.lvLogs.View = System.Windows.Forms.View.Details;
@@ -251,11 +271,10 @@
             // 
             // FrmDmQD130_ImportXml
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1160, 639);
+            this.ClientSize = new System.Drawing.Size(994, 519);
             this.Controls.Add(this.splitContainer1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmDmQD130_ImportXml";
             this.Text = "FrmDmQD130_ImportXml";
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -264,7 +283,8 @@
             this.splitContainer1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gc_data)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gv_data)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -273,7 +293,6 @@
 
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.Button btnCheckDB;
         private System.Windows.Forms.Button btnSaveDB;
         private System.Windows.Forms.Button btnExportAPI;
@@ -287,5 +306,7 @@
         private System.Windows.Forms.ListView lvLogs;
         private System.Windows.Forms.ColumnHeader colLogTime;
         private System.Windows.Forms.ColumnHeader colLogMessage;
+        private CustomGridLookUpEdit.CustomGridControl gc_data;
+        private CustomGridLookUpEdit.CustomGridView gv_data;
     }
 }
