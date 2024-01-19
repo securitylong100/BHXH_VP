@@ -1,10 +1,10 @@
 ﻿using DevExpress.XtraEditors;
 using System;
 using System.Data;
+using System.Drawing;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using XML130.EasyHelper;
 using XML130.EasyUtils;
 using XML130.Libraries;
 
@@ -12,32 +12,30 @@ namespace XML130.XML
 {
     public partial class FrmDmQD130_ImportXml : XtraForm
     {
-        protected EasyGridStyleHelper EasyGridStyleHelper;
-
         public FrmDmQD130_ImportXml()
         {
             InitializeComponent();
-            EasyGridStyleHelper = new EasyGridStyleHelper(this, customGridControl,
-                customGridView, false, true, false, false, false, false, true, true);
-
         }
+
+        #region Protected methods
         protected virtual void OnInit()
         {
             try
             {
-                DataTable dataTable = SQLHelper.ExecuteDataTable("SELECT MA_LK,MACSKCB,NGAYLAP,SOLUONGHOSO FROM XML_GIAMDINHHS");
-                customGridControl.DataSource = dataTable;
-
-                EasyCommon.BestFitColumnsGridView(customGridView);
+                lvLogs.Items.Clear();
+                string table = "_GIAMDINHHS";
+                if (!string.IsNullOrWhiteSpace(txtXmlType.Text))
+                {
+                    table = txtXmlType.Text;
+                }
+                string sql = string.Format("SELECT * FROM XML{0} WHERE '{1}'='' OR MA_LK='{1}'", table, txtMaLK.Text);
+                DataTable dataTable = SQLHelper.ExecuteDataTable(sql);
+                dataGridView.DataSource = dataTable;
             }
             catch (Exception exception)
             {
                 EasyDialog.ShowErrorDialog("Phát sinh lỗi. (" + exception.Message + ")");
             }
-        }
-        protected virtual void OnReload()
-        {
-            OnInit();
         }
         protected virtual void OnImportXml()
         {
@@ -50,7 +48,7 @@ namespace XML130.XML
             };
             if (openFolder.ShowDialog() == DialogResult.OK)
             {
-                lbLogs.Items.Clear();
+                lvLogs.Items.Clear();
                 EasyLoadWait.ShowWaitForm("Đang import", this);
                 try
                 {
@@ -78,12 +76,20 @@ namespace XML130.XML
                         #region ĐỌC FILE HỒ SƠ
                         if (dsGIAMDINHHS.Tables.Contains("FILEHOSO") && dsGIAMDINHHS.Tables["FILEHOSO"].Rows.Count > 0)
                         {
+                            bool isError = false;
                             foreach (DataRow drFILEHOSO in dsGIAMDINHHS.Tables["FILEHOSO"].Rows)
                             {
                                 string xmlType = drFILEHOSO["LOAIHOSO"].ToString();
                                 string xmlContent = drFILEHOSO["NOIDUNGFILE"].ToString();
-                                InsertTable(xmlType, xmlContent, out MA_LK);
+                                if (!InsertTable(xmlType, xmlContent, out MA_LK))
+                                {
+                                    AddErrorLog("Thêm thông tin giám định hồ sơ thất bại!");
+                                    AddErrorLog(string.Format("Đường dẫn file: {0}", xmlFile));
+                                    isError = true;
+                                    break;
+                                }
                             }
+                            if (isError) continue;
                             #region CẬP NHẬT HỒ SƠ GIÁM ĐỊNH
                             StringBuilder sb = new StringBuilder();
                             sb.Append("INSERT INTO XML_GIAMDINHHS ([MA_LK],[MACSKCB],[NGAYLAP],[SOLUONGHOSO]) ");
@@ -92,11 +98,15 @@ namespace XML130.XML
                             int result = SQLHelper.ExecuteNonQuery(sb.ToString());
                             if (result > 0)
                             {
-                                AddLog(string.Format("Thêm thông tin giám định hồ sơ hoàn tất!\nHồ sơ: {0}\nĐường dẫn:{1}", MA_LK, xmlFile));
+                                AddLog("Thêm thông tin giám định hồ sơ hoàn tất!");
+                                AddLog(string.Format("Mã liên kết: {0}", MA_LK));
+                                AddLog(string.Format("Đường dẫn file: {0}", xmlFile));
                             }
                             else
                             {
-                                AddErrorLog(string.Format("Thêm thông tin giám định hồ sơ thất bại!\nHồ sơ: {0}\nĐường dẫn:{1}", MA_LK, xmlFile));
+                                AddErrorLog("Thêm thông tin giám định hồ sơ thất bại!");
+                                AddErrorLog(string.Format("Mã liên kết: {0}", MA_LK));
+                                AddErrorLog(string.Format("Đường dẫn file: {0}", xmlFile));
                             }
                             #endregion
                         }
@@ -112,17 +122,21 @@ namespace XML130.XML
         protected virtual void OnExportXml()
         {
         }
-
+        #endregion
+        #region Private methods
         private void AddLog(string message)
         {
-            lbLogs.Items.Add($"<color=Blue>[{DateTime.Now:HH:mm:ss}] {message}</color>");
+            lvLogs.Items.Add(new ListViewItem(new string[] { string.Format("{0:HH:mm:ss}", DateTime.Now), message })
+            { ForeColor = Color.Blue });
         }
         private void AddErrorLog(string message)
         {
-            lbLogs.Items.Add($"<color=Red>[{DateTime.Now:HH:mm:ss}] {message}</color>");
+            lvLogs.Items.Add(new ListViewItem(new string[] { string.Format("{0:HH:mm:ss}", DateTime.Now), message })
+            { ForeColor = Color.Red });
         }
-        private void InsertTable(string xmlType, string xmlContent, out string MA_LK)
+        private bool InsertTable(string xmlType, string xmlContent, out string MA_LK)
         {
+            bool isError = false;
             MA_LK = string.Empty;
             DataTable dtInfo = SQLHelper.GetTableInfo(xmlType);
             if (dtInfo != null && dtInfo.Rows.Count > 0)
@@ -141,12 +155,12 @@ namespace XML130.XML
                                 foreach (DataRow dr in dt.Rows)
                                 {
                                     #region XÂY DỰNG QUERY INSERT
-                                    bool isErrorRow = false;
                                     StringBuilder sbValues = new StringBuilder();
                                     StringBuilder sbColumns = new StringBuilder();
                                     sbColumns.Append("MA_LK");
                                     MA_LK = dr["MA_LK"].ToString();
                                     sbValues.AppendFormat("'{0}'", MA_LK);
+                                    bool isFirstRowError = true;
                                     foreach (DataRow drInfo in dtInfo.Rows)
                                     {
                                         string colName = drInfo["ColumnName"].ToString();
@@ -183,13 +197,19 @@ namespace XML130.XML
                                             }
                                             else if (!isNullable)
                                             {
-                                                isErrorRow = true;
-                                                AddErrorLog(string.Format("Cột {0} không được để trống!\nHồ sơ: {1}\nLoại hồ sơ: {2}", colName, MA_LK, xmlType));
+                                                isError = true;
+                                                if (isFirstRowError)
+                                                {
+                                                    isFirstRowError = false;
+                                                    AddErrorLog(string.Format("Mã liên kết: {0}", MA_LK));
+                                                    AddErrorLog(string.Format("Loại hồ sơ: {0}", xmlType));
+                                                }
+                                                AddErrorLog(string.Format("Cột {0} không được để trống!", colName));
                                             }
                                         }
                                     }
                                     #endregion
-                                    if (!isErrorRow)
+                                    if (!isError)
                                     {
                                         #region THỰC THI QUERY INSERT
                                         StringBuilder sb = new StringBuilder();
@@ -203,7 +223,10 @@ namespace XML130.XML
                                         int result = SQLHelper.ExecuteNonQuery(sb.ToString());
                                         if (result < 0)
                                         {
-                                            AddErrorLog(string.Format("Thêm dữ liệu thất bại!\nHồ sơ: {0}\nLoại hồ sơ: {1}\n Số thứ tự: {2}", MA_LK, xmlType, STT));
+                                            AddErrorLog("Thêm dữ liệu vào CSDL thất bại!");
+                                            AddErrorLog(string.Format("Mã liên kết: {0}", MA_LK));
+                                            AddErrorLog(string.Format("Loại hồ sơ: {0}", xmlType));
+                                            AddErrorLog(string.Format("Số thứ tự: {0}", STT));
                                         }
                                         #endregion
                                     }
@@ -213,20 +236,38 @@ namespace XML130.XML
                     }
                 }
             }
+            return isError;
         }
-
+        #endregion
+        #region Events
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
             OnInit();
         }
-        private void btnImportXmlFolder_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void btnImport_Click(object sender, EventArgs e)
         {
             OnImportXml();
         }
-        private void btnExportXml_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void btnLoadDB_Click(object sender, EventArgs e)
         {
-            OnExportXml();
+            OnInit();
         }
+        private void btnCheckDB_Click(object sender, EventArgs e)
+        {
+        }
+        private void btnSaveDB_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnExportAPI_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnSendAPI_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }
