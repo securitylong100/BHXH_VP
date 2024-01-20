@@ -1147,3 +1147,14 @@ D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\de\DevExpress.Diagram.v20.1.Core.res
 D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
 D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
 D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\System.Memory.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\System.Text.Json.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\System.Numerics.Vectors.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\System.Buffers.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\System.ValueTuple.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\System.Text.Encodings.Web.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\obj\Debug\XML130.csproj.SuggestedBindingRedirects.cache
+D:\01.GitHub\02.IFM\BHXH_VP\MyApp\obj\Debug\XML130.exe.config

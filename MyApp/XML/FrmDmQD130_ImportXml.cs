@@ -1,11 +1,16 @@
 ﻿using DevExpress.XtraEditors;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using XML130.EasyUtils;
@@ -15,8 +20,13 @@ namespace XML130.XML
 {
     public partial class FrmDmQD130_ImportXml : XtraForm
     {
+        private const string USER_NAME = "";
+        private const string PASSWORD = "";
+        private const string MA_TINH = "";
         private DataTable _dtData = null;
         private string _tableName = string.Empty;
+        private readonly HttpClient _client = new HttpClient();
+        private readonly List<HttpContent> _lstAPIBodys = new List<HttpContent>();
         private readonly XmlWriterSettings _xmlWriterSettings = new XmlWriterSettings() { Encoding = Encoding.UTF8, Indent = true };
 
         public FrmDmQD130_ImportXml()
@@ -189,155 +199,229 @@ namespace XML130.XML
                 DataTable dtGiamDinhHoSo = SQLHelper.ExecuteDataTable(sql);
                 if (dtGiamDinhHoSo != null)
                 {
+                    _lstAPIBodys.Clear();
                     foreach (DataRow drHoSo in dtGiamDinhHoSo.Rows)
                     {
+                        string maLK = drHoSo["MA_LK"].ToString();
+                        string maCSKCB = drHoSo["MACSKCB"].ToString();
                         StringBuilder sbHoSoXml = new StringBuilder();
-                        using (XmlWriter writerHoSoXml = XmlWriter.Create(sbHoSoXml, _xmlWriterSettings))
+                        try
                         {
-                            writerHoSoXml.WriteStartDocument();
-                            writerHoSoXml.WriteStartElement("GIAMDINHHS");
-
-                            writerHoSoXml.WriteStartElement("THONGTINDONVI");
-                            writerHoSoXml.WriteElementString("MACSKCB", drHoSo["MACSKCB"].ToString());
-                            writerHoSoXml.WriteEndElement();
-
-                            writerHoSoXml.WriteStartElement("THONGTINHOSO");
-                            string NGAYLAP = drHoSo["NGAYLAP"].ToString();
-                            if (DateTime.TryParse(NGAYLAP, out DateTime dtValue))
+                            #region XUẤT DỮ LIỆU RA XML
+                            using (XmlWriter writerHoSoXml = XmlWriter.Create(sbHoSoXml, _xmlWriterSettings))
                             {
-                                NGAYLAP = dtValue.ToString("yyyyMMdd");
-                            }
-                            writerHoSoXml.WriteElementString("NGAYLAP", NGAYLAP);
-                            writerHoSoXml.WriteElementString("SOLUONGHOSO", drHoSo["SOLUONGHOSO"].ToString());
+                                writerHoSoXml.WriteStartDocument();
+                                writerHoSoXml.WriteStartElement("GIAMDINHHS");
 
-                            writerHoSoXml.WriteStartElement("DANHSACHHOSO");
-                            writerHoSoXml.WriteStartElement("HOSO");
-                            writerHoSoXml.WriteStartElement("FILEHOSO");
+                                writerHoSoXml.WriteStartElement("THONGTINDONVI");
+                                writerHoSoXml.WriteElementString("MACSKCB", maCSKCB);
+                                writerHoSoXml.WriteEndElement();
 
-                            for (int i = 1; i < 12; i++)
-                            {
-                                string xmlType = string.Format("XML{0}", i);
-                                writerHoSoXml.WriteElementString("LOAIHOSO", xmlType);
-                                StringBuilder sbFileHoSoXml = new StringBuilder();
-                                using (XmlWriter writerXml = XmlWriter.Create(sbFileHoSoXml, _xmlWriterSettings))
+                                writerHoSoXml.WriteStartElement("THONGTINHOSO");
+                                string NGAYLAP = drHoSo["NGAYLAP"].ToString();
+                                if (DateTime.TryParse(NGAYLAP, out DateTime dtValue))
                                 {
-                                    string rowElement = string.Empty;
-                                    writerXml.WriteStartDocument();
-                                    switch (i)
-                                    {
-                                        case 1:
-                                            {
-                                                rowElement = "TONG_HOP";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                break;
-                                            }
-                                        case 2:
-                                            {
-                                                writerXml.WriteStartElement("CHITIEU_CHITIET_THUOC");
-                                                writerXml.WriteStartElement("DSACH_CHI_TIET_THUOC");
-                                                rowElement = "CHI_TIET_THUOC";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                writerXml.WriteEndElement();
-                                                writerXml.WriteEndElement();
-                                                break;
-                                            }
-                                        case 3:
-                                            {
-                                                writerXml.WriteStartElement("CHITIEU_CHITIET_DVKT_VTYT");
-                                                writerXml.WriteStartElement("DSACH_CHI_TIET_DVKT");
-                                                rowElement = "CHI_TIET_DVKT";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                writerXml.WriteEndElement();
-                                                writerXml.WriteEndElement();
-                                                break;
-                                            }
-                                        case 4:
-                                            {
-                                                writerXml.WriteStartElement("CHITIEU_CHITIET_DICHVUCANLAMSANG");
-                                                writerXml.WriteStartElement("DSACH_CHI_TIET_CLS");
-                                                rowElement = "CHI_TIET_CLS";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                writerXml.WriteEndElement();
-                                                writerXml.WriteEndElement();
-                                                break;
-                                            }
-                                        case 5:
-                                            {
-                                                writerXml.WriteStartElement("CHITIEU_CHITIET_DIENBIENLAMSANG");
-                                                writerXml.WriteStartElement("DSACH_CHI_TIET_DIEN_BIEN_BENH");
-                                                rowElement = "CHI_TIET_DIEN_BIEN_BENH";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                writerXml.WriteEndElement();
-                                                writerXml.WriteEndElement();
-                                                break;
-                                            }
-                                        case 6:
-                                            {
-                                                writerXml.WriteStartElement("CHI_TIEU_HO_SO_BENH_AN_CHAM_SOC_VA_DIEU_TRI_HIV_AIDS");
-                                                writerXml.WriteStartElement("DSACH_HO_SO_BENH_AN_CHAM_SOC_VA_DIEU_TRI_HIV_AIDS");
-                                                rowElement = "CHI_TIET_DIEN_BIEN_BENH";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                writerXml.WriteEndElement();
-                                                writerXml.WriteEndElement();
-                                                break;
-                                            }
-                                        case 7:
-                                            {
-                                                rowElement = "CHI_TIEU_DU_LIEU_GIAY_RA_VIEN";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                break;
-                                            }
-                                        case 8:
-                                            {
-                                                rowElement = "CHI_TIEU_DU_LIEU_TOM_TAT_HO_SO_BENH_AN";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                break;
-                                            }
-                                        case 9:
-                                            {
-                                                writerXml.WriteStartElement("CHI_TIEU_DU_LIEU_GIAY_CHUNG_SINH");
-                                                writerXml.WriteStartElement("DSACH_GIAYCHUNGSINH");
-                                                rowElement = "DU_LIEU_GIAY_CHUNG_SINH";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                writerXml.WriteEndElement();
-                                                writerXml.WriteEndElement();
-                                                break;
-                                            }
-                                        case 10:
-                                            {
-                                                rowElement = "CHI_TIEU_DU_LIEU_GIAY_NGHI_DUONG_THAI";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                break;
-                                            }
-                                        case 11:
-                                            {
-                                                rowElement = "CHI_TIEU_DU_LIEU_GIAY_CHUNG_NHAN_NGHI_VIEC_HUONG_BAO_HIEM_XA_HOI";
-                                                WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
-                                                break;
-                                            }
-                                        default:
-                                            break;
-                                    }
-                                    //writerXml.WriteEndDocument();
-                                    writerXml.Flush();
+                                    NGAYLAP = dtValue.ToString("yyyyMMdd");
                                 }
-                                string xmlBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(sbFileHoSoXml.ToString()));
-                                writerHoSoXml.WriteElementString("NOIDUNGFILE", xmlBase64);
+                                writerHoSoXml.WriteElementString("NGAYLAP", NGAYLAP);
+                                writerHoSoXml.WriteElementString("SOLUONGHOSO", drHoSo["SOLUONGHOSO"].ToString());
+
+                                writerHoSoXml.WriteStartElement("DANHSACHHOSO");
+                                writerHoSoXml.WriteStartElement("HOSO");
+                                writerHoSoXml.WriteStartElement("FILEHOSO");
+
+                                for (int i = 1; i < 12; i++)
+                                {
+                                    string xmlType = string.Format("XML{0}", i);
+                                    writerHoSoXml.WriteElementString("LOAIHOSO", xmlType);
+                                    StringBuilder sbFileHoSoXml = new StringBuilder();
+                                    using (XmlWriter writerXml = XmlWriter.Create(sbFileHoSoXml, _xmlWriterSettings))
+                                    {
+                                        string rowElement = string.Empty;
+                                        writerXml.WriteStartDocument();
+                                        switch (i)
+                                        {
+                                            case 1:
+                                                {
+                                                    rowElement = "TONG_HOP";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    break;
+                                                }
+                                            case 2:
+                                                {
+                                                    writerXml.WriteStartElement("CHITIEU_CHITIET_THUOC");
+                                                    writerXml.WriteStartElement("DSACH_CHI_TIET_THUOC");
+                                                    rowElement = "CHI_TIET_THUOC";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    writerXml.WriteEndElement();
+                                                    writerXml.WriteEndElement();
+                                                    break;
+                                                }
+                                            case 3:
+                                                {
+                                                    writerXml.WriteStartElement("CHITIEU_CHITIET_DVKT_VTYT");
+                                                    writerXml.WriteStartElement("DSACH_CHI_TIET_DVKT");
+                                                    rowElement = "CHI_TIET_DVKT";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    writerXml.WriteEndElement();
+                                                    writerXml.WriteEndElement();
+                                                    break;
+                                                }
+                                            case 4:
+                                                {
+                                                    writerXml.WriteStartElement("CHITIEU_CHITIET_DICHVUCANLAMSANG");
+                                                    writerXml.WriteStartElement("DSACH_CHI_TIET_CLS");
+                                                    rowElement = "CHI_TIET_CLS";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    writerXml.WriteEndElement();
+                                                    writerXml.WriteEndElement();
+                                                    break;
+                                                }
+                                            case 5:
+                                                {
+                                                    writerXml.WriteStartElement("CHITIEU_CHITIET_DIENBIENLAMSANG");
+                                                    writerXml.WriteStartElement("DSACH_CHI_TIET_DIEN_BIEN_BENH");
+                                                    rowElement = "CHI_TIET_DIEN_BIEN_BENH";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    writerXml.WriteEndElement();
+                                                    writerXml.WriteEndElement();
+                                                    break;
+                                                }
+                                            case 6:
+                                                {
+                                                    writerXml.WriteStartElement("CHI_TIEU_HO_SO_BENH_AN_CHAM_SOC_VA_DIEU_TRI_HIV_AIDS");
+                                                    writerXml.WriteStartElement("DSACH_HO_SO_BENH_AN_CHAM_SOC_VA_DIEU_TRI_HIV_AIDS");
+                                                    rowElement = "CHI_TIET_DIEN_BIEN_BENH";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    writerXml.WriteEndElement();
+                                                    writerXml.WriteEndElement();
+                                                    break;
+                                                }
+                                            case 7:
+                                                {
+                                                    rowElement = "CHI_TIEU_DU_LIEU_GIAY_RA_VIEN";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    break;
+                                                }
+                                            case 8:
+                                                {
+                                                    rowElement = "CHI_TIEU_DU_LIEU_TOM_TAT_HO_SO_BENH_AN";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    break;
+                                                }
+                                            case 9:
+                                                {
+                                                    writerXml.WriteStartElement("CHI_TIEU_DU_LIEU_GIAY_CHUNG_SINH");
+                                                    writerXml.WriteStartElement("DSACH_GIAYCHUNGSINH");
+                                                    rowElement = "DU_LIEU_GIAY_CHUNG_SINH";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    writerXml.WriteEndElement();
+                                                    writerXml.WriteEndElement();
+                                                    break;
+                                                }
+                                            case 10:
+                                                {
+                                                    rowElement = "CHI_TIEU_DU_LIEU_GIAY_NGHI_DUONG_THAI";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    break;
+                                                }
+                                            case 11:
+                                                {
+                                                    rowElement = "CHI_TIEU_DU_LIEU_GIAY_CHUNG_NHAN_NGHI_VIEC_HUONG_BAO_HIEM_XA_HOI";
+                                                    WriteDbTableToXml(writerXml, rowElement, xmlType, txtMaLK.Text);
+                                                    break;
+                                                }
+                                            default:
+                                                break;
+                                        }
+                                        //writerXml.WriteEndDocument();
+                                        writerXml.Flush();
+                                    }
+                                    string xmlBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(sbFileHoSoXml.ToString()));
+                                    writerHoSoXml.WriteElementString("NOIDUNGFILE", xmlBase64);
+                                }
+
+                                writerHoSoXml.WriteEndElement();
+                                writerHoSoXml.WriteEndElement();
+                                writerHoSoXml.WriteEndElement();
+
+                                writerHoSoXml.WriteEndElement();
+
+                                writerHoSoXml.WriteEndElement();
+                                writerHoSoXml.WriteEndDocument();
+                                writerHoSoXml.Flush();
                             }
-
-                            writerHoSoXml.WriteEndElement();
-                            writerHoSoXml.WriteEndElement();
-                            writerHoSoXml.WriteEndElement();
-
-                            writerHoSoXml.WriteEndElement();
-
-                            writerHoSoXml.WriteEndElement();
-                            writerHoSoXml.WriteEndDocument();
-                            writerHoSoXml.Flush();
+                            File.WriteAllText(saveFile.FileName, sbHoSoXml.ToString());
+                            WriteLog(string.Format("- Mã liên kết: {0}", maLK), true);
+                            WriteLog(string.Format("Đường dẫn file: {0}", saveFile.FileName), true);
+                            #endregion
+                            #region CẤU HÌNH BODY CHO API
+                            if (!string.IsNullOrWhiteSpace(maLK)
+                                && !string.IsNullOrWhiteSpace(maCSKCB))
+                            {
+                                string fileHSBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(sbHoSoXml.ToString()));
+                                string jsonString = JsonSerializer.Serialize(
+                                    new
+                                    {
+                                        username = USER_NAME,
+                                        loaiHoSo = "130",
+                                        maTinh = MA_TINH,
+                                        maCSKCB,
+                                        fileHSBase64
+                                    });
+                                StringContent content = new StringContent(jsonString, Encoding.UTF8, "application/json");
+                                _lstAPIBodys.Add(content);
+                                WriteLog("- Cấu hình API", true);
+                                WriteLog("Loại hồ sơ: 130", true);
+                                WriteLog("Người dùng: ", true);
+                                WriteLog("Mã tỉnh: ", true);
+                                WriteLog(string.Format("Mã cơ sở KCB: {0}", maCSKCB), true);
+                                WriteLog(string.Format("Mã liên kết: {0}", maLK), true);
+                            }
+                            #endregion
                         }
-                        File.WriteAllText(saveFile.FileName, sbHoSoXml.ToString());
+                        catch (Exception ex)
+                        {
+                            WriteLog(string.Format("- Mã liên kết: {0}", maLK), false);
+                            WriteLog(ex.Message, false);
+                        }
                     }
                 }
+            }
+        }
+        protected virtual void OnSendAPI()
+        {
+            if (_lstAPIBodys.Count < 1)
+            {
+                WriteLog("- Chưa khởi tạo dữ liệu API!", false);
+                return;
+            }
+            try
+            {
+                foreach (var content in _lstAPIBodys)
+                {
+                    Task<HttpResponseMessage> responseTask = Task.Run(
+                        async () => await _client.PostAsync("https://daotaoegw.baohiemxahoi.gov.vn/api/qd130/guiHoSoXmlQD130", content).ConfigureAwait(false));
+                    while (!responseTask.IsCompleted) { }
+                    HttpResponseMessage responseMsg = responseTask.Result;
+                    if (responseMsg.IsSuccessStatusCode)
+                    {
+                        Task<string> contentTask = Task.Run(async () => await responseMsg.Content.ReadAsStringAsync());
+                        while (!contentTask.IsCompleted) { }
+                        string jsonContent = contentTask.Result;
+                        Dictionary<string, string> response = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonContent);
+                        bool isOk = response["maKetQua"] == "200";
+                        WriteLog(string.Format("- Kết quả: {0}", response["maKetQua"]), isOk);
+                        WriteLog(string.Format("Mã giao dịch: {0}", response["maGiaoDich"]), isOk);
+                        WriteLog(string.Format("Thông điệp: {0}", response["thongDiep"]), isOk);
+                        WriteLog(string.Format("Thời gian tiếp nhận: {0}", response["thoiGianTiepNhan"]), isOk);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                WriteLog("- Gửi API thất bại", false);
+                WriteLog(ex.Message, false);
             }
         }
         #endregion
@@ -345,8 +429,38 @@ namespace XML130.XML
         private void WriteLog(string message, bool isError)
         {
             lvLogs.Items.Add(new ListViewItem(new string[] { string.Format("{0:HH:mm:ss}", DateTime.Now), message })
-            { ForeColor = isError ? Color.Blue : Color.Red });
+            { ForeColor = isError ? Color.Blue : Color.Red }).EnsureVisible();
         }
+        private bool Login(string username, string password)
+        {
+            _client.DefaultRequestHeaders.Accept
+                .Add(new MediaTypeWithQualityHeaderValue("application/x-www-formurlencoded"));
+            password = EasyEncoding.SHA1MD5.MD5Encoding(password).ToUpper();
+            string jsonContent = JsonSerializer.Serialize(new { username, password });
+            StringContent content = new StringContent(jsonContent, encoding: Encoding.UTF8, "application/json");
+            Task<HttpResponseMessage> responseTask = Task.Run(async () => await _client.PostAsync("https://daotaoegw.baohiemxahoi.gov.vn/api/token/take", content).ConfigureAwait(false));
+            while (!responseTask.IsCompleted) { }
+            HttpResponseMessage responseMsg = responseTask.Result;
+            if (responseMsg.IsSuccessStatusCode)
+            {
+                Task<string> contentTask = Task.Run(async () => await responseMsg.Content.ReadAsStringAsync());
+                while (!contentTask.IsCompleted) { }
+                jsonContent = contentTask.Result;
+                Dictionary<string, string> response = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonContent);
+                if (response["maKetQua"] == "200")
+                {
+                    Dictionary<string, string> apiKey = JsonSerializer.Deserialize<Dictionary<string, string>>(response["APIKey"]);
+                    _client.DefaultRequestHeaders.Add("accessToken", apiKey["access_token"]);
+                    _client.DefaultRequestHeaders.Add("tokenId", apiKey["id_token"]);
+                    _client.DefaultRequestHeaders.Add("passwordHash", password);
+                    WriteLog(string.Format("- Username: {0} đăng nhập thành công", username), true);
+                    return true;
+                }
+            }
+            WriteLog(string.Format("- Username: {0} đăng nhập thất bại", username), false);
+            return false;
+        }
+
         private static void WriteDbTableToXml(XmlWriter writer, string rowElement, string xmlType, string MA_LK)
         {
             DataTable dtInfo = SQLHelper.GetTableInfo(xmlType);
@@ -683,6 +797,7 @@ namespace XML130.XML
         {
             base.OnLoad(e);
             OnInit();
+            Login(USER_NAME, PASSWORD);
         }
         private void btnImport_Click(object sender, EventArgs e)
         {
@@ -706,7 +821,7 @@ namespace XML130.XML
         }
         private void btnSendAPI_Click(object sender, EventArgs e)
         {
-
+            OnSendAPI();
         }
         #endregion
     }
