@@ -345,7 +345,7 @@ namespace XML130.XML
         private void WriteLog(string message, bool isError)
         {
             lvLogs.Items.Add(new ListViewItem(new string[] { string.Format("{0:HH:mm:ss}", DateTime.Now), message })
-            { ForeColor = isError ? Color.Red : Color.Blue });
+            { ForeColor = isError ? Color.Blue : Color.Red });
         }
         private static void WriteDbTableToXml(XmlWriter writer, string rowElement, string xmlType, string MA_LK)
         {
