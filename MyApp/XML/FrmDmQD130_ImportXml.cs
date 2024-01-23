@@ -1,4 +1,5 @@
 ﻿using DevExpress.XtraEditors;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,7 +10,6 @@ using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
@@ -360,7 +360,7 @@ namespace XML130.XML
                                 && !string.IsNullOrWhiteSpace(maCSKCB))
                             {
                                 string fileHSBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(sbHoSoXml.ToString()));
-                                string jsonString = JsonSerializer.Serialize(
+                                string jsonString = JsonConvert.SerializeObject(
                                     new
                                     {
                                         username = USER_NAME,
@@ -409,7 +409,7 @@ namespace XML130.XML
                         Task<string> contentTask = Task.Run(async () => await responseMsg.Content.ReadAsStringAsync());
                         while (!contentTask.IsCompleted) { }
                         string jsonContent = contentTask.Result;
-                        Dictionary<string, string> response = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonContent);
+                        Dictionary<string, string> response = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonContent);
                         bool isOk = response["maKetQua"] == "200";
                         WriteLog(string.Format("- Kết quả: {0}", response["maKetQua"]), isOk);
                         WriteLog(string.Format("Mã giao dịch: {0}", response["maGiaoDich"]), isOk);
@@ -436,8 +436,8 @@ namespace XML130.XML
             _client.DefaultRequestHeaders.Accept
                 .Add(new MediaTypeWithQualityHeaderValue("application/x-www-formurlencoded"));
             password = EasyEncoding.SHA1MD5.MD5Encoding(password).ToUpper();
-            string jsonContent = JsonSerializer.Serialize(new { username, password });
-            StringContent content = new StringContent(jsonContent, encoding: Encoding.UTF8, "application/json");
+            string jsonContent = JsonConvert.SerializeObject(new { username, password });
+            StringContent content = new StringContent(jsonContent, encoding: Encoding.UTF8, mediaType: "application/json");
             Task<HttpResponseMessage> responseTask = Task.Run(async () => await _client.PostAsync("https://daotaoegw.baohiemxahoi.gov.vn/api/token/take", content).ConfigureAwait(false));
             while (!responseTask.IsCompleted) { }
             HttpResponseMessage responseMsg = responseTask.Result;
@@ -446,10 +446,10 @@ namespace XML130.XML
                 Task<string> contentTask = Task.Run(async () => await responseMsg.Content.ReadAsStringAsync());
                 while (!contentTask.IsCompleted) { }
                 jsonContent = contentTask.Result;
-                Dictionary<string, string> response = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonContent);
+                Dictionary<string, string> response = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonContent);
                 if (response["maKetQua"] == "200")
                 {
-                    Dictionary<string, string> apiKey = JsonSerializer.Deserialize<Dictionary<string, string>>(response["APIKey"]);
+                    Dictionary<string, string> apiKey = JsonConvert.DeserializeObject<Dictionary<string, string>>(response["APIKey"]);
                     _client.DefaultRequestHeaders.Add("accessToken", apiKey["access_token"]);
                     _client.DefaultRequestHeaders.Add("tokenId", apiKey["id_token"]);
                     _client.DefaultRequestHeaders.Add("passwordHash", password);

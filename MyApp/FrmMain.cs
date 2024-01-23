@@ -1,7 +1,7 @@
-﻿using System.Data.SqlClient;
+﻿using DevExpress.XtraBars;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Windows.Forms;
-using DevExpress.XtraBars;
 using XML130.EasyData;
 using XML130.EasyUtils;
 using XML130.Func;
@@ -905,8 +905,10 @@ namespace XML130
             else
             {
                 EasyLoadWait.ShowWaitForm();
-                f = new FrmDmQD130_ImportXml();
-                f.Name = "FrmDmQD130_ImportXml";
+                //f = new FrmDmQD130_ImportXml();
+                //f.Name = "FrmDmQD130_ImportXml";
+                f = new FrmQuanLyXml();
+                f.Name = "FrmQuanLyXml";
                 e.Item.Tag = f.Name;
                 f.Text = EasyMessageGlobal.ImportXMLtoDB;
                 f.MdiParent = this;

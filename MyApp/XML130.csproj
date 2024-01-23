@@ -51,6 +51,7 @@
     <ApplicationIcon>online-stored-value-64.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accessibility" />
     <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Dapper.dll</HintPath>
@@ -92,15 +93,18 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
-    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Security" />
-    <Reference Include="System.Text.Json, Version=7.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -346,6 +350,12 @@
     <Compile Include="XML\FrmDmQD130_ImportXml.Designer.cs">
       <DependentUpon>FrmDmQD130_ImportXml.cs</DependentUpon>
     </Compile>
+    <Compile Include="XML\FrmQuanLyXml.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XML\FrmQuanLyXml.Designer.cs">
+      <DependentUpon>FrmQuanLyXml.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FrmChangePassword.resx">
       <DependentUpon>FrmChangePassword.cs</DependentUpon>
     </EmbeddedResource>
@@ -452,6 +462,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="XML\FrmDmQD130_ImportXml.resx">
       <DependentUpon>FrmDmQD130_ImportXml.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XML\FrmQuanLyXml.resx">
+      <DependentUpon>FrmQuanLyXml.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

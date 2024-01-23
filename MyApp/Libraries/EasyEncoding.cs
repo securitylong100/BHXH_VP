@@ -1,5 +1,4 @@
-﻿using XML130.Libraries;
-using System;
+﻿using System;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
@@ -72,6 +71,8 @@ namespace XML130.Libraries
             return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
         }
 
+        public static string ToHexString(byte[] bytes) => BitConverter.ToString(bytes).Replace("-", "");
+
         public static Stream GenerateStreamFromString(string s)
         {
             var stream = new MemoryStream();
@@ -87,6 +88,17 @@ namespace XML130.Libraries
             public static string SHA1Encoding(string Data) => Convert.ToBase64String(new SHA1CryptoServiceProvider().ComputeHash(Encoding.UTF8.GetBytes(Data)));
 
             public static string MD5Encoding(string Data) => Convert.ToBase64String(new MD5CryptoServiceProvider().ComputeHash(Encoding.UTF8.GetBytes(Data)));
+
+            public static string MD5Hasn(string Data)
+            {
+                using (MD5 md5 = MD5.Create())
+                {
+                    byte[] inputBytes = Encoding.ASCII.GetBytes(Data);
+                    byte[] hashBytes = md5.ComputeHash(inputBytes);
+
+                    return ToHexString(hashBytes);
+                }
+            }
         }
     }
 }
