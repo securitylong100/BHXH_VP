@@ -7,6 +7,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,7 @@ namespace XML130.XML
         private DataSet _dsXmlFile;
         private DataTable _dtErrors;
         private string _base64HoSoXml;
+        private List<ClsError> _lstErrors = new List<ClsError>();
         private readonly XmlWriterSettings _xmlWriterSettings = new XmlWriterSettings()
         {
             Indent = true,
@@ -40,10 +42,59 @@ namespace XML130.XML
             InitializeComponent();
         }
         #region Protected methods
+        protected virtual void OnClear()
+        {
+            _lstErrors.Clear();
+            gcErrors.DataSource = null;
+            gcXmlHS.DataSource = null;
+            gcXml1.DataSource = null;
+            gcXml2.DataSource = null;
+            gcXml3.DataSource = null;
+            gcXml4.DataSource = null;
+            gcXml5.DataSource = null;
+            gcXml6.DataSource = null;
+            gcXml7.DataSource = null;
+            gcXml8.DataSource = null;
+            gcXml9.DataSource = null;
+            gcXml10.DataSource = null;
+            gcXml11.DataSource = null;
+
+            gvErrors.OptionsView.ColumnAutoWidth = false;
+            gvXmlHS.OptionsView.ColumnAutoWidth = false;
+            gvXml1.OptionsView.ColumnAutoWidth = false;
+            gvXml2.OptionsView.ColumnAutoWidth = false;
+            gvXml3.OptionsView.ColumnAutoWidth = false;
+            gvXml4.OptionsView.ColumnAutoWidth = false;
+            gvXml5.OptionsView.ColumnAutoWidth = false;
+            gvXml6.OptionsView.ColumnAutoWidth = false;
+            gvXml7.OptionsView.ColumnAutoWidth = false;
+            gvXml8.OptionsView.ColumnAutoWidth = false;
+            gvXml9.OptionsView.ColumnAutoWidth = false;
+            gvXml10.OptionsView.ColumnAutoWidth = false;
+            gvXml11.OptionsView.ColumnAutoWidth = false;
+
+            tabXmlGDHS.PageVisible = false;
+            tabXml1.PageVisible = false;
+            tabXml2.PageVisible = false;
+            tabXml3.PageVisible = false;
+            tabXml4.PageVisible = false;
+            tabXml5.PageVisible = false;
+            tabXml6.PageVisible = false;
+            tabXml7.PageVisible = false;
+            tabXml8.PageVisible = false;
+            tabXml9.PageVisible = false;
+            tabXml10.PageVisible = false;
+            tabXml11.PageVisible = false;
+
+            tabErrors.Select();
+        }
         protected virtual void OnInit()
         {
             try
             {
+                OnClear();
+                cboXmlTypes.Properties.Items.Add("Tất cả");
+                cboXmlTypes.Properties.Items.AddRange(XmlHelper.XmlTypes.Keys);
                 _dtErrors = SQLHelper.ExecuteDataTable("SELECT * FROM XMLERROR");
                 ClientHelper.Instance.Login(USER_NAME, PASSWORD, WriteLog);
             }
@@ -76,22 +127,149 @@ namespace XML130.XML
                 WriteLog(string.Format("Gửi API thất bại!\n{0}", ex.Message), false);
             }
         }
+        protected virtual void OnCheckXml()
+        {
+            try
+            {
+                OnClear();
+                EasyLoadWait.ShowWaitForm("Đang kiểm tra dữ liệu!", this);
+                if (_dsXmlFile != null && _dsXmlFile.Tables.Count > 0)
+                {
+                    foreach (DataTable dt in _dsXmlFile.Tables)
+                    {
+                        switch (dt.TableName)
+                        {
+                            case "XML_GIAMDINHHS":
+                                {
+                                    gcXmlHS.DataSource = dt;
+                                    gvXmlHS.BestFitColumns();
+                                    tabXmlGDHS.PageVisible = true;
+                                    break;
+                                }
+                            case "XML1":
+                                {
+                                    List<ClsError> errors = ValidateXml1(dt);
+                                    gcXml1.DataSource = dt;
+                                    gvXml1.OptionsView.ColumnAutoWidth = true;
+                                    tabXml1.PageVisible = true;
+                                    if (errors.Count > 0)
+                                    {
+                                        tabXml1.Caption = string.Format("XML 1 (<color=Red>{0} lỗi</color>)", errors.Count);
+                                        _lstErrors.AddRange(errors);
+                                    }
+                                    else
+                                    {
+                                        tabXml1.Caption = "XML 1";
+                                    }
+                                    break;
+                                }
+                            case "XML2":
+                                {
+                                    gcXml2.DataSource = dt;
+                                    gvXml2.OptionsView.ColumnAutoWidth = true;
+                                    tabXml2.PageVisible = true;
+                                    break;
+                                }
+                            case "XML3":
+                                {
+                                    gcXml3.DataSource = dt;
+                                    gvXml3.OptionsView.ColumnAutoWidth = true;
+                                    tabXml3.PageVisible = true;
+                                    break;
+                                }
+                            case "XML4":
+                                {
+                                    gcXml4.DataSource = dt;
+                                    gvXml4.OptionsView.ColumnAutoWidth = true;
+                                    tabXml4.PageVisible = true;
+                                    break;
+                                }
+                            case "XML5":
+                                {
+                                    gcXml5.DataSource = dt;
+                                    gvXml5.OptionsView.ColumnAutoWidth = true;
+                                    tabXml5.PageVisible = true;
+                                    break;
+                                }
+                            case "XML6":
+                                {
+                                    gcXml6.DataSource = dt;
+                                    gvXml6.OptionsView.ColumnAutoWidth = true;
+                                    tabXml6.PageVisible = true;
+                                    break;
+                                }
+                            case "XML7":
+                                {
+                                    gcXml7.DataSource = dt;
+                                    gvXml7.OptionsView.ColumnAutoWidth = true;
+                                    tabXml7.PageVisible = true;
+                                    break;
+                                }
+                            case "XML8":
+                                {
+                                    gcXml8.DataSource = dt;
+                                    gvXml8.OptionsView.ColumnAutoWidth = true;
+                                    tabXml8.PageVisible = true;
+                                    break;
+                                }
+                            case "XML9":
+                                {
+                                    gcXml9.DataSource = dt;
+                                    gvXml9.OptionsView.ColumnAutoWidth = true;
+                                    tabXml9.PageVisible = true;
+                                    break;
+                                }
+                            case "XML10":
+                                {
+                                    gcXml10.DataSource = dt;
+                                    gvXml10.OptionsView.ColumnAutoWidth = true;
+                                    tabXml10.PageVisible = true;
+                                    break;
+                                }
+                            case "XML11":
+                                {
+                                    gcXml11.DataSource = dt;
+                                    gvXml11.OptionsView.ColumnAutoWidth = true;
+                                    tabXml11.PageVisible = true;
+                                    break;
+                                }
+                            default:
+                                break;
+                        }
+                    }
+                }
+                gcErrors.DataSource = _lstErrors;
+                gvErrors.OptionsView.ColumnAutoWidth = true;
+            }
+            catch (Exception exception)
+            {
+                EasyDialog.ShowErrorDialog("Phát sinh lỗi. (" + exception.Message + ")");
+            }
+            finally
+            {
+                EasyLoadWait.CloseWaitForm();
+            }
+        }
         protected virtual void OnSaveToDB()
         {
             if (_dsXmlFile != null && _dsXmlFile.Tables.Count > 0)
             {
-                string maLK = _dsXmlFile.Tables["XML_GIAMDINHHS"].Rows[0]["MA_LK"].ToString();
-                EasyLoadWait.ShowWaitForm(string.Format("Đang cập nhật dữ liệu lượt khám {0}", maLK), this);
                 try
                 {
                     foreach (DataTable dtXmlType in _dsXmlFile.Tables)
                     {
-                        if (!XmlHelper.ImportXmlType2Db(dtXmlType.TableName, dtXmlType, WriteLog))
+                        if (dtXmlType != null && dtXmlType.Rows.Count > 0)
                         {
-                            if (XmlHelper.UpdateXmlType2Db(dtXmlType.TableName, dtXmlType, WriteLog))
+                            string maLK = dtXmlType.Rows[0]["MA_LK"].ToString();
+                            EasyLoadWait.ShowWaitForm(string.Format("Đang cập nhật dữ liệu lượt khám {0}", maLK), this);
+                            if (!XmlHelper.ImportXmlType2Db(dtXmlType.TableName, dtXmlType, WriteLog))
                             {
-                                string message = $"Cập nhật dữ liệu lượt khám {maLK} tại bảng {dtXmlType.TableName} thất bại!";
-                                WriteLog(message, false);
+                                if (!XmlHelper.UpdateXmlType2Db(dtXmlType.TableName, dtXmlType, WriteLog))
+                                {
+                                    WriteLog($"Cập nhật dữ liệu lượt khám {maLK} tại bảng {dtXmlType.TableName} thất bại!", false);
+                                    return;
+                                }
+                                WriteLog($"Cập nhật dữ liệu lượt khám {maLK} tại bảng {dtXmlType.TableName} thành công!", true);
                             }
                         }
                     }
@@ -183,6 +361,32 @@ namespace XML130.XML
                 }
             }
         }
+        protected virtual void OnLoadFromDB()
+        {
+            try
+            {
+                EasyLoadWait.ShowWaitForm("Đang tải dữ liệu!", this);
+                if (cboXmlTypes.SelectedIndex < 1)
+                {
+                    _dsXmlFile = XmlHelper.LoadXmlDataFromDb(txtMaLK.Text);
+                }
+                else
+                {
+                    _dsXmlFile = new DataSet();
+                    DataTable dt = XmlHelper.LoadXmlDataFromDb(cboXmlTypes.Text, txtMaLK.Text);
+                    _dsXmlFile.Tables.Add(dt);
+                }
+            }
+            catch (Exception exception)
+            {
+                EasyDialog.ShowErrorDialog("Phát sinh lỗi. (" + exception.Message + ")");
+            }
+            finally
+            {
+                OnCheckXml();
+                EasyLoadWait.CloseWaitForm();
+            }
+        }
         protected virtual void OnOpenXmlFile()
         {
             OpenFileDialog openFile = new OpenFileDialog()
@@ -210,6 +414,7 @@ namespace XML130.XML
                 }
                 finally
                 {
+                    OnCheckXml();
                     EasyLoadWait.CloseWaitForm();
                 }
             }
@@ -249,6 +454,7 @@ namespace XML130.XML
                 finally
                 {
                     EasyLoadWait.CloseWaitForm();
+                    tabLogs.Select();
                 }
             }
         }
@@ -258,27 +464,27 @@ namespace XML130.XML
         {
             if (isOk)
             {
-                EasyDialog.ShowSuccessfulDialog(message);
+                lbLogs.Items.Add(string.Format("<color=Blue>{0}</color>", message));
             }
             else
             {
-                EasyDialog.ShowUnsuccessfulDialog(message);
+                lbLogs.Items.Add(string.Format("<color=Red>{0}</color>", message));
             }
-            Console.WriteLine(message);
         }
         private List<ClsError> ValidateXml1(DataTable dtXml1)
         {
-            List<ClsError> lstError = new List<ClsError>();
+            List<ClsError> lstErrors = new List<ClsError>();
             if (_dtErrors != null && _dtErrors.Rows.Count > 0
                 && dtXml1 != null && dtXml1.Rows.Count > 0)
             {
                 foreach (DataRow dr in dtXml1.Rows)
                 {
+                    List<ClsError> lstRowErrors = new List<ClsError>();
                     foreach (DataRow drError in _dtErrors.Rows)
                     {
                         ClsError error = new ClsError()
                         {
-                            Item = drError["TEN_COT"].ToString(),
+                            Item = drError["ITEM"].ToString(),
                             MaLoiCha = drError["MA_LOI_CHA"].ToString(),
                             MaLoiCon = drError["MA_LOI_CON"].ToString(),
                             NoiDungLoi = drError["NOI_DUNG_LOI"].ToString(),
@@ -288,20 +494,20 @@ namespace XML130.XML
                             string value = dr[error.Item].ToString();
                             if (string.IsNullOrWhiteSpace(value))
                             {
-                                lstError.Add(error);
+                                lstRowErrors.Add(error);
                             }
                             switch (error.MaLoiCon)
                             {
                                 case "105002":
                                     {
-                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstError.Add(error);
+                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstRowErrors.Add(error);
                                         break;
                                     }
                                 case "108002":
                                     {
                                         string sql = string.Format("SELECT [TEN_QUOCTICH] FROM tblDmQD130_QuocTich WHERE [MA_QUOCTICH]='{0}' ", value);
                                         string quocTich = SQLHelper.ExecuteScalar<string>(sql);
-                                        if (string.IsNullOrWhiteSpace(quocTich)) lstError.Add(error);
+                                        if (string.IsNullOrWhiteSpace(quocTich)) lstRowErrors.Add(error);
                                         break;
                                     }
                                 case "110002":
@@ -317,23 +523,23 @@ namespace XML130.XML
                                             sb.AppendFormat("OR [MA_NGHE_NGHIEP_C4]='{0}' ", value);
                                             sb.AppendFormat("OR [MA_NGHE_NGHIEP_C5]='{0}' ", value);
                                             string ngheNghiep = SQLHelper.ExecuteScalar<string>(sb.ToString());
-                                            if (string.IsNullOrWhiteSpace(ngheNghiep)) lstError.Add(error);
+                                            if (string.IsNullOrWhiteSpace(ngheNghiep)) lstRowErrors.Add(error);
                                         }
                                         break;
                                     }
                                 case "140002":
                                     {
-                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 7) lstError.Add(error);
+                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 7) lstRowErrors.Add(error);
                                         break;
                                     }
                                 case "141002":
                                     {
-                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 5) lstError.Add(error);
+                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 5) lstRowErrors.Add(error);
                                         break;
                                     }
                                 case "159002":
                                     {
-                                        if (!double.TryParse(value, out double kq)) lstError.Add(error);
+                                        if (!double.TryParse(value, out double kq)) lstRowErrors.Add(error);
                                         break;
                                     }
                                 default:
@@ -342,9 +548,15 @@ namespace XML130.XML
                         }
 
                     }
+                    if (lstRowErrors.Count > 0)
+                    {
+                        dr["MA_LOI"] = string.Join(";", lstRowErrors.Select(x => x.MaLoiCon));
+                        dr["THONGTIN_LOI"] = string.Join(";", lstRowErrors.Select(x => x.NoiDungLoi));
+                        lstErrors.AddRange(lstRowErrors);
+                    }
                 }
             }
-            return lstError;
+            return lstErrors;
         }
         #endregion
         #region Events
@@ -356,7 +568,7 @@ namespace XML130.XML
         {
             if (e.KeyCode == Keys.Enter)
             {
-
+                OnLoadFromDB();
             }
         }
         private void pnlButtons_ButtonClick(object sender, ButtonEventArgs e)
@@ -367,7 +579,8 @@ namespace XML130.XML
                 {
                     case "cmdImportFolder": OnImportXmlFolder(); break;
                     case "cmdOpenXmlFile": OnOpenXmlFile(); break;
-                    case "cmdCheckXml": OnSaveToDB(); break;
+                    case "cmdCheckXml": OnCheckXml(); break;
+                    case "cmdSaveDb": OnSaveToDB(); break;
                     case "cmdExportXml": OnExportXml(); break;
                     case "cmdSendApi": OnSendAPI(); break;
                     default: break;
@@ -376,7 +589,7 @@ namespace XML130.XML
         }
         private void cboXmlTypes_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            OnLoadFromDB();
         }
         #endregion
 
@@ -391,6 +604,23 @@ namespace XML130.XML
 
     public class XmlHelper
     {
+        public static Dictionary<string, string> XmlTypes { get; }
+            = new Dictionary<string, string>()
+            {
+                { "XML_GIAMDINHHS", "Giám định hồ sơ" },
+                { "XML1", "XML 1" },
+                { "XML2", "XML 2" },
+                { "XML3", "XML 3" },
+                { "XML4", "XML 4" },
+                { "XML5", "XML 5" },
+                { "XML6", "XML 6" },
+                { "XML7", "XML 7" },
+                { "XML8", "XML 8" },
+                { "XML9", "XML 9" },
+                { "XML10", "XML 10" },
+                { "XML11", "XML 11" },
+            };
+
         /// <summary>
         /// Đọc file XML giám định hồ sơ vào Dataset với các table tương ứng XML 1, XML 2,...
         /// </summary>
@@ -447,6 +677,8 @@ namespace XML130.XML
                                         dtGiamDinhHoSo.Rows[0]["MA_LK"] = dtXmlType.Rows[0]["MA_LK"];
                                     }
                                     DataTable dt = dtXmlType.DefaultView.ToTable(xmlType);
+                                    if (!dt.Columns.Contains("MA_LOI")) dt.Columns.Add("MA_LOI");
+                                    if (!dt.Columns.Contains("THONGTIN_LOI")) dt.Columns.Add("THONGTIN_LOI");
                                     dsXmlOpenned.Tables.Add(dt);
                                     break;
                                 }
@@ -457,6 +689,25 @@ namespace XML130.XML
             }
             #endregion
             return dsXmlOpenned;
+        }
+
+        public static DataSet LoadXmlDataFromDb(string maLK)
+        {
+            DataSet ds = new DataSet();
+            foreach (string xmlType in XmlTypes.Keys)
+            {
+                DataTable dt = LoadXmlDataFromDb(xmlType, maLK);
+                ds.Tables.Add(dt);
+            }
+            return ds;
+        }
+
+        public static DataTable LoadXmlDataFromDb(string xmlType, string maLK)
+        {
+            string sql = string.Format("IF OBJECT_ID('{0}', 'U') IS NOT NULL SELECT * FROM {0} WHERE ISNULL('{1}','')='' OR MA_LK='{1}';", xmlType, maLK);
+            DataTable dt = SQLHelper.ExecuteDataTable(sql);
+            dt.TableName = xmlType;
+            return dt;
         }
 
         /// <summary>
@@ -580,8 +831,8 @@ namespace XML130.XML
                                     {
                                         sb.AppendLine(ex.Message);
                                         callback?.Invoke(sb.ToString(), false);
+                                        return false;
                                     }
-                                    return false;
                                 }
                                 #endregion
                             }
@@ -693,6 +944,7 @@ namespace XML130.XML
                             int result = SQLHelper.ExecuteNonQuery(sb.ToString());
                             if (result < 1)
                             {
+                                isOk = false;
                                 StringBuilder sbMessage = new StringBuilder();
                                 sbMessage.AppendFormat("Loại hồ sơ: {0}\n", xmlTypeName);
                                 sbMessage.AppendFormat("Lượt khám: {0}\n", maLK);
