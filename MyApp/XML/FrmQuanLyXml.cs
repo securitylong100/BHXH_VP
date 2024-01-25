@@ -1,4 +1,5 @@
 ﻿using DevExpress.XtraBars.Docking2010;
+using DevExpress.XtraBars.Navigation;
 using DevExpress.XtraEditors;
 using Newtonsoft.Json;
 using System;
@@ -13,6 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using XML130.CustomGridLookUpEdit;
 using XML130.EasyUtils;
 using XML130.Libraries;
 
@@ -27,9 +29,7 @@ namespace XML130.XML
 
         private string _maCSKCB;
         private DataSet _dsXmlFile;
-        private DataTable _dtErrors;
         private string _base64HoSoXml;
-        private List<ClsError> _lstErrors = new List<ClsError>();
         private readonly XmlWriterSettings _xmlWriterSettings = new XmlWriterSettings()
         {
             Indent = true,
@@ -44,49 +44,7 @@ namespace XML130.XML
         #region Protected methods
         protected virtual void OnClear()
         {
-            _lstErrors.Clear();
-            gcErrors.DataSource = null;
-            gcXmlHS.DataSource = null;
-            gcXml1.DataSource = null;
-            gcXml2.DataSource = null;
-            gcXml3.DataSource = null;
-            gcXml4.DataSource = null;
-            gcXml5.DataSource = null;
-            gcXml6.DataSource = null;
-            gcXml7.DataSource = null;
-            gcXml8.DataSource = null;
-            gcXml9.DataSource = null;
-            gcXml10.DataSource = null;
-            gcXml11.DataSource = null;
-
-            gvErrors.OptionsView.ColumnAutoWidth = false;
-            gvXmlHS.OptionsView.ColumnAutoWidth = false;
-            gvXml1.OptionsView.ColumnAutoWidth = false;
-            gvXml2.OptionsView.ColumnAutoWidth = false;
-            gvXml3.OptionsView.ColumnAutoWidth = false;
-            gvXml4.OptionsView.ColumnAutoWidth = false;
-            gvXml5.OptionsView.ColumnAutoWidth = false;
-            gvXml6.OptionsView.ColumnAutoWidth = false;
-            gvXml7.OptionsView.ColumnAutoWidth = false;
-            gvXml8.OptionsView.ColumnAutoWidth = false;
-            gvXml9.OptionsView.ColumnAutoWidth = false;
-            gvXml10.OptionsView.ColumnAutoWidth = false;
-            gvXml11.OptionsView.ColumnAutoWidth = false;
-
-            tabXmlGDHS.PageVisible = false;
-            tabXml1.PageVisible = false;
-            tabXml2.PageVisible = false;
-            tabXml3.PageVisible = false;
-            tabXml4.PageVisible = false;
-            tabXml5.PageVisible = false;
-            tabXml6.PageVisible = false;
-            tabXml7.PageVisible = false;
-            tabXml8.PageVisible = false;
-            tabXml9.PageVisible = false;
-            tabXml10.PageVisible = false;
-            tabXml11.PageVisible = false;
-
-            tabErrors.Select();
+            tcXmls.Pages.Clear();
         }
         protected virtual void OnInit()
         {
@@ -95,7 +53,6 @@ namespace XML130.XML
                 OnClear();
                 cboXmlTypes.Properties.Items.Add("Tất cả");
                 cboXmlTypes.Properties.Items.AddRange(XmlHelper.XmlTypes.Keys);
-                _dtErrors = SQLHelper.ExecuteDataTable("SELECT * FROM XMLERROR");
                 ClientHelper.Instance.Login(USER_NAME, PASSWORD, WriteLog);
             }
             catch (Exception exception)
@@ -133,113 +90,27 @@ namespace XML130.XML
             {
                 OnClear();
                 EasyLoadWait.ShowWaitForm("Đang kiểm tra dữ liệu!", this);
-                if (_dsXmlFile != null && _dsXmlFile.Tables.Count > 0)
+                Dictionary<string, List<ClsXmlError>> dictErrors = XmlHelper.ValidateXml(ref _dsXmlFile);
+                IEnumerable<ClsXmlError> errorItems = dictErrors.Values.SelectMany(x => x);
+                AddPage(0, "Tổng hợp lỗi", errorItems);
+                if (_dsXmlFile.Tables.Contains("XML_GIAMDINHHS"))
                 {
-                    foreach (DataTable dt in _dsXmlFile.Tables)
+                    AddPage(1, "Giám định hồ sơ", _dsXmlFile.Tables["XML_GIAMDINHHS"]);
+                }
+                for (int i = 1; i < 12; i++)
+                {
+                    string xmlType = string.Format("XML{0}", i);
+                    if (_dsXmlFile.Tables.Contains(xmlType)
+                        && _dsXmlFile.Tables[xmlType].Rows.Count > 0)
                     {
-                        switch (dt.TableName)
+                        string captibn = xmlType;
+                        if (dictErrors.TryGetValue(xmlType, out List<ClsXmlError> lstErrors) && lstErrors.Count > 0)
                         {
-                            case "XML_GIAMDINHHS":
-                                {
-                                    gcXmlHS.DataSource = dt;
-                                    gvXmlHS.BestFitColumns();
-                                    tabXmlGDHS.PageVisible = true;
-                                    break;
-                                }
-                            case "XML1":
-                                {
-                                    List<ClsError> errors = ValidateXml1(dt);
-                                    gcXml1.DataSource = dt;
-                                    gvXml1.OptionsView.ColumnAutoWidth = true;
-                                    tabXml1.PageVisible = true;
-                                    if (errors.Count > 0)
-                                    {
-                                        tabXml1.Caption = string.Format("XML 1 (<color=Red>{0} lỗi</color>)", errors.Count);
-                                        _lstErrors.AddRange(errors);
-                                    }
-                                    else
-                                    {
-                                        tabXml1.Caption = "XML 1";
-                                    }
-                                    break;
-                                }
-                            case "XML2":
-                                {
-                                    gcXml2.DataSource = dt;
-                                    gvXml2.OptionsView.ColumnAutoWidth = true;
-                                    tabXml2.PageVisible = true;
-                                    break;
-                                }
-                            case "XML3":
-                                {
-                                    gcXml3.DataSource = dt;
-                                    gvXml3.OptionsView.ColumnAutoWidth = true;
-                                    tabXml3.PageVisible = true;
-                                    break;
-                                }
-                            case "XML4":
-                                {
-                                    gcXml4.DataSource = dt;
-                                    gvXml4.OptionsView.ColumnAutoWidth = true;
-                                    tabXml4.PageVisible = true;
-                                    break;
-                                }
-                            case "XML5":
-                                {
-                                    gcXml5.DataSource = dt;
-                                    gvXml5.OptionsView.ColumnAutoWidth = true;
-                                    tabXml5.PageVisible = true;
-                                    break;
-                                }
-                            case "XML6":
-                                {
-                                    gcXml6.DataSource = dt;
-                                    gvXml6.OptionsView.ColumnAutoWidth = true;
-                                    tabXml6.PageVisible = true;
-                                    break;
-                                }
-                            case "XML7":
-                                {
-                                    gcXml7.DataSource = dt;
-                                    gvXml7.OptionsView.ColumnAutoWidth = true;
-                                    tabXml7.PageVisible = true;
-                                    break;
-                                }
-                            case "XML8":
-                                {
-                                    gcXml8.DataSource = dt;
-                                    gvXml8.OptionsView.ColumnAutoWidth = true;
-                                    tabXml8.PageVisible = true;
-                                    break;
-                                }
-                            case "XML9":
-                                {
-                                    gcXml9.DataSource = dt;
-                                    gvXml9.OptionsView.ColumnAutoWidth = true;
-                                    tabXml9.PageVisible = true;
-                                    break;
-                                }
-                            case "XML10":
-                                {
-                                    gcXml10.DataSource = dt;
-                                    gvXml10.OptionsView.ColumnAutoWidth = true;
-                                    tabXml10.PageVisible = true;
-                                    break;
-                                }
-                            case "XML11":
-                                {
-                                    gcXml11.DataSource = dt;
-                                    gvXml11.OptionsView.ColumnAutoWidth = true;
-                                    tabXml11.PageVisible = true;
-                                    break;
-                                }
-                            default:
-                                break;
+                            captibn += string.Format(" <color=Red>({0} lỗi)</color>", lstErrors.Count);
                         }
+                        AddPage(i + 1, captibn, _dsXmlFile.Tables[xmlType]);
                     }
                 }
-                gcErrors.DataSource = _lstErrors;
-                gvErrors.OptionsView.ColumnAutoWidth = true;
             }
             catch (Exception exception)
             {
@@ -247,6 +118,7 @@ namespace XML130.XML
             }
             finally
             {
+                tcXmls.SelectedPageIndex = 0;
                 EasyLoadWait.CloseWaitForm();
             }
         }
@@ -326,7 +198,7 @@ namespace XML130.XML
 
                             foreach (DataTable dtXmlType in _dsXmlFile.Tables)
                             {
-                                if (dtXmlType.TableName != "XML_GIAMDINHHS")
+                                if (dtXmlType.TableName != "XML_GIAMDINHHS" && dtXmlType.Rows.Count > 0)
                                 {
                                     writerHoSoXml.WriteStartElement("FILEHOSO");
                                     writerHoSoXml.WriteElementString("LOAIHOSO", dtXmlType.TableName);
@@ -347,7 +219,7 @@ namespace XML130.XML
                         }
                         File.WriteAllText(saveFile.FileName, sbXmlHoSo.ToString());
                         _base64HoSoXml = Convert.ToBase64String(Encoding.UTF8.GetBytes(sbXmlHoSo.ToString()));
-                        WriteLog(string.Format("Mã lượt khám: {0}\nĐường dẫn file: {1}", maLK, saveFile.FileName), true);
+                        WriteLog(string.Format("Xuất XML lượt khám: {0}\nĐường dẫn file: {1}", maLK, saveFile.FileName), true);
                         #endregion
                     }
                     catch (Exception exception)
@@ -438,6 +310,7 @@ namespace XML130.XML
                     foreach (string xmlFile in xmlFiles)
                     {
                         DataSet dsXmlFile = XmlHelper.LoadXmlFile(xmlFile);
+                        XmlHelper.ValidateXml(ref dsXmlFile);
                         foreach (DataTable dtXmlType in dsXmlFile.Tables)
                         {
                             if (!XmlHelper.ImportXmlType2Db(dtXmlType.TableName, dtXmlType, WriteLog))
@@ -454,7 +327,7 @@ namespace XML130.XML
                 finally
                 {
                     EasyLoadWait.CloseWaitForm();
-                    tabLogs.Select();
+                    EasyDialog.ShowInfoDialog("Import hoàn tất!");
                 }
             }
         }
@@ -462,101 +335,35 @@ namespace XML130.XML
         #region Private methods
         private void WriteLog(string message, bool isOk)
         {
-            if (isOk)
+            string[] lines = message.Split('\n');
+            foreach (string line in lines)
             {
-                lbLogs.Items.Add(string.Format("<color=Blue>{0}</color>", message));
+                if (isOk)
+                {
+                    lbLogs.Items.Add(string.Format("<color=Blue>{0}</color>", line));
+                }
+                else
+                {
+                    lbLogs.Items.Add(string.Format("<color=Red>{0}</color>", line));
+                }
+            }
+        }
+        private TabNavigationPage AddPage(int index, string caption, object dataSource)
+        {
+            CustomGridControl gridControl = new CustomGridControl { Dock = DockStyle.Fill };
+            gridControl.MainView = new CustomGridView() { GridControl = gridControl };
+            gridControl.DataSource = dataSource;
+            TabNavigationPage page = new TabNavigationPage() { Caption = caption };
+            page.Controls.Add(gridControl);
+            if (index < tcXmls.Pages.Count)
+            {
+                tcXmls.Pages.Insert(index, page);
             }
             else
             {
-                lbLogs.Items.Add(string.Format("<color=Red>{0}</color>", message));
+                tcXmls.Pages.Add(page);
             }
-        }
-        private List<ClsError> ValidateXml1(DataTable dtXml1)
-        {
-            List<ClsError> lstErrors = new List<ClsError>();
-            if (_dtErrors != null && _dtErrors.Rows.Count > 0
-                && dtXml1 != null && dtXml1.Rows.Count > 0)
-            {
-                foreach (DataRow dr in dtXml1.Rows)
-                {
-                    List<ClsError> lstRowErrors = new List<ClsError>();
-                    foreach (DataRow drError in _dtErrors.Rows)
-                    {
-                        ClsError error = new ClsError()
-                        {
-                            Item = drError["ITEM"].ToString(),
-                            MaLoiCha = drError["MA_LOI_CHA"].ToString(),
-                            MaLoiCon = drError["MA_LOI_CON"].ToString(),
-                            NoiDungLoi = drError["NOI_DUNG_LOI"].ToString(),
-                        };
-                        if (error.MaLoiCha.Length == 3 && error.MaLoiCha.StartsWith("1"))
-                        {
-                            string value = dr[error.Item].ToString();
-                            if (string.IsNullOrWhiteSpace(value))
-                            {
-                                lstRowErrors.Add(error);
-                            }
-                            switch (error.MaLoiCon)
-                            {
-                                case "105002":
-                                    {
-                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstRowErrors.Add(error);
-                                        break;
-                                    }
-                                case "108002":
-                                    {
-                                        string sql = string.Format("SELECT [TEN_QUOCTICH] FROM tblDmQD130_QuocTich WHERE [MA_QUOCTICH]='{0}' ", value);
-                                        string quocTich = SQLHelper.ExecuteScalar<string>(sql);
-                                        if (string.IsNullOrWhiteSpace(quocTich)) lstRowErrors.Add(error);
-                                        break;
-                                    }
-                                case "110002":
-                                    {
-                                        if (value != "00000")
-                                        {
-                                            StringBuilder sb = new StringBuilder();
-                                            sb.AppendLine("SELECT TEN_NGHE_NGHIEP FROM tblDmQD130_NgheNghiep ");
-                                            sb.AppendFormat("WHERE [MA_NGHE_NGHIEP]='{0}' ", value);
-                                            sb.AppendFormat("OR [MA_NGHE_NGHIEP_C1]='{0}' ", value);
-                                            sb.AppendFormat("OR [MA_NGHE_NGHIEP_C2]='{0}' ", value);
-                                            sb.AppendFormat("OR [MA_NGHE_NGHIEP_C3]='{0}' ", value);
-                                            sb.AppendFormat("OR [MA_NGHE_NGHIEP_C4]='{0}' ", value);
-                                            sb.AppendFormat("OR [MA_NGHE_NGHIEP_C5]='{0}' ", value);
-                                            string ngheNghiep = SQLHelper.ExecuteScalar<string>(sb.ToString());
-                                            if (string.IsNullOrWhiteSpace(ngheNghiep)) lstRowErrors.Add(error);
-                                        }
-                                        break;
-                                    }
-                                case "140002":
-                                    {
-                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 7) lstRowErrors.Add(error);
-                                        break;
-                                    }
-                                case "141002":
-                                    {
-                                        if (!int.TryParse(value, out int kq) || kq < 1 || kq > 5) lstRowErrors.Add(error);
-                                        break;
-                                    }
-                                case "159002":
-                                    {
-                                        if (!double.TryParse(value, out double kq)) lstRowErrors.Add(error);
-                                        break;
-                                    }
-                                default:
-                                    break;
-                            }
-                        }
-
-                    }
-                    if (lstRowErrors.Count > 0)
-                    {
-                        dr["MA_LOI"] = string.Join(";", lstRowErrors.Select(x => x.MaLoiCon));
-                        dr["THONGTIN_LOI"] = string.Join(";", lstRowErrors.Select(x => x.NoiDungLoi));
-                        lstErrors.AddRange(lstRowErrors);
-                    }
-                }
-            }
-            return lstErrors;
+            return page;
         }
         #endregion
         #region Events
@@ -592,14 +399,15 @@ namespace XML130.XML
             OnLoadFromDB();
         }
         #endregion
+    }
 
-        private class ClsError
-        {
-            public string Item { get; set; }
-            public string MaLoiCha { get; set; }
-            public string MaLoiCon { get; set; }
-            public string NoiDungLoi { get; set; }
-        }
+    public class ClsXmlError
+    {
+        public string XmlType { get; set; }
+        public string Item { get; set; }
+        public string MaLoiCha { get; set; }
+        public string MaLoiCon { get; set; }
+        public string NoiDungLoi { get; set; }
     }
 
     public class XmlHelper
@@ -708,6 +516,181 @@ namespace XML130.XML
             DataTable dt = SQLHelper.ExecuteDataTable(sql);
             dt.TableName = xmlType;
             return dt;
+        }
+        public static Dictionary<string, List<ClsXmlError>> ValidateXml(ref DataSet dsXmlFile)
+        {
+            Dictionary<string, List<ClsXmlError>> dictErrors = new Dictionary<string, List<ClsXmlError>>();
+            var dtErrors = SQLHelper.ExecuteDataTable("SELECT * FROM XMLERROR");
+            if (dtErrors != null && dtErrors.Rows.Count > 0)
+            {
+                foreach (DataTable dtXml in dsXmlFile.Tables)
+                {
+                    if (!dictErrors.ContainsKey(dtXml.TableName))
+                    {
+                        dictErrors.Add(dtXml.TableName, new List<ClsXmlError>());
+                    }
+                    foreach (DataRow dr in dtXml.Rows)
+                    {
+                        List<ClsXmlError> lstRowErrors = new List<ClsXmlError>();
+                        foreach (DataRow drError in dtErrors.Rows)
+                        {
+                            ClsXmlError error = new ClsXmlError()
+                            {
+                                Item = drError["ITEM"].ToString(),
+                                XmlType = drError["XML"].ToString(),
+                                MaLoiCha = drError["MA_LOI_CHA"].ToString(),
+                                MaLoiCon = drError["MA_LOI_CON"].ToString(),
+                                NoiDungLoi = drError["NOI_DUNG_LOI"].ToString(),
+                            };
+                            if (error.XmlType == dtXml.TableName)
+                            {
+                                string value = dr[error.Item].ToString();
+                                if (string.IsNullOrWhiteSpace(value))
+                                {
+                                    lstRowErrors.Add(error);
+                                }
+                                switch (error.MaLoiCon)
+                                {
+                                    #region XML1
+                                    case "105002":
+                                        {
+                                            if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    case "108002":
+                                        {
+                                            string sql = string.Format("SELECT [TEN_QUOCTICH] FROM tblDmQD130_QuocTich WHERE [MA_QUOCTICH]='{0}' ", value);
+                                            string quocTich = SQLHelper.ExecuteScalar<string>(sql);
+                                            if (string.IsNullOrWhiteSpace(quocTich)) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    case "110002":
+                                        {
+                                            if (value != "00000")
+                                            {
+                                                StringBuilder sb = new StringBuilder();
+                                                sb.AppendLine("SELECT TEN_NGHE_NGHIEP FROM tblDmQD130_NgheNghiep ");
+                                                sb.AppendFormat("WHERE [MA_NGHE_NGHIEP]='{0}' ", value);
+                                                sb.AppendFormat("OR [MA_NGHE_NGHIEP_C1]='{0}' ", value);
+                                                sb.AppendFormat("OR [MA_NGHE_NGHIEP_C2]='{0}' ", value);
+                                                sb.AppendFormat("OR [MA_NGHE_NGHIEP_C3]='{0}' ", value);
+                                                sb.AppendFormat("OR [MA_NGHE_NGHIEP_C4]='{0}' ", value);
+                                                sb.AppendFormat("OR [MA_NGHE_NGHIEP_C5]='{0}' ", value);
+                                                string ngheNghiep = SQLHelper.ExecuteScalar<string>(sb.ToString());
+                                                if (string.IsNullOrWhiteSpace(ngheNghiep)) lstRowErrors.Add(error);
+                                            }
+                                            break;
+                                        }
+                                    case "140002":
+                                        {
+                                            if (!int.TryParse(value, out int kq) || kq < 1 || kq > 7) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    case "141002":
+                                        {
+                                            if (!int.TryParse(value, out int kq) || kq < 1 || kq > 5) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    case "159002":
+                                        {
+                                            if (!double.TryParse(value, out double kq)) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    #endregion
+                                    #region XML2
+                                    case "206002":
+                                        {
+                                            //MA_NHOM không tồn tại trong danh mục
+                                            break;
+                                        }
+                                    case "216002":
+                                        {
+                                            if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    case "217002":
+                                        {
+                                            string phamVi = dr["PHAM_VI"].ToString();
+                                            if (!int.TryParse(value, out int kq)
+                                                || ((phamVi == "2" || phamVi == "3") && kq != 0))
+                                            {
+                                                lstRowErrors.Add(error);
+                                            }
+                                            break;
+                                        }
+                                    case "2310021":
+                                        {
+                                            string sql = string.Format("SELECT [TEN] FROM tblDmCSKCB_KhoaPhong WHERE [MA]='{0}' ", value);
+                                            string tenKhoa = SQLHelper.ExecuteScalar<string>(sql);
+                                            if (string.IsNullOrWhiteSpace(tenKhoa)) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    case "232002":
+                                        {
+                                            string maBacsi = string.Join("','", value.Split(';'));
+                                            string sql = string.Format("SELECT HO_TEN FROM tblDmCSKCB_NhanVienYTe WHERE MACCHN in ('{0}') ", maBacsi);
+                                            string tenBacsi = SQLHelper.ExecuteScalar<string>(sql);
+                                            if (string.IsNullOrWhiteSpace(tenBacsi)) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    case "234002":
+                                        {
+                                            if (dsXmlFile.Tables.Contains("XML1"))
+                                            {
+                                                foreach (DataRow drXml1 in dsXmlFile.Tables["XML1"].Rows)
+                                                {
+                                                    if (long.TryParse(drXml1["NGAY_VAO"].ToString(), out long ngayVao)
+                                                        && long.TryParse(value, out long ngayYL)
+                                                        && ngayYL < ngayVao)
+                                                    {
+                                                        lstRowErrors.Add(error);
+                                                    }
+                                                }
+                                            }
+                                            break;
+                                        }
+                                    case "234003":
+                                        {
+                                            if (dsXmlFile.Tables.Contains("XML1"))
+                                            {
+                                                foreach (DataRow drXml1 in dsXmlFile.Tables["XML1"].Rows)
+                                                {
+                                                    if (long.TryParse(drXml1["NGAY_RA"].ToString(), out long ngayRa)
+                                                        && long.TryParse(value, out long ngayYL)
+                                                        && ngayYL > ngayRa)
+                                                    {
+                                                        lstRowErrors.Add(error);
+                                                    }
+                                                }
+                                            }
+                                            break;
+                                        }
+                                    case "235001":
+                                        {
+                                            if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    case "236002":
+                                        {
+                                            if (!int.TryParse(value, out int kq) || kq < 1 || kq > 4) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    #endregion
+                                    default:
+                                        break;
+                                }
+                            }
+                        }
+                        if (lstRowErrors.Count > 0)
+                        {
+                            dr["MA_LOI"] = string.Join(";", lstRowErrors.Select(x => x.MaLoiCon));
+                            dr["THONGTIN_LOI"] = string.Join(";", lstRowErrors.Select(x => x.NoiDungLoi));
+                            dictErrors[dtXml.TableName].AddRange(lstRowErrors);
+                        }
+                    }
+                }
+            }
+            return dictErrors;
         }
 
         /// <summary>
