@@ -218,8 +218,9 @@ namespace XML130.XML
                             writerHoSoXml.WriteEndDocument();
                             writerHoSoXml.Flush();
                         }
-                        File.WriteAllText(saveFile.FileName, sbXmlHoSo.ToString());
-                        _base64HoSoXml = Convert.ToBase64String(Encoding.UTF8.GetBytes(sbXmlHoSo.ToString()));
+                        string xmlContent = sbXmlHoSo.ToString().Replace("encoding=\"utf-16\"", "encoding=\"utf-8\"");
+                        File.WriteAllText(saveFile.FileName, xmlContent);
+                        _base64HoSoXml = Convert.ToBase64String(Encoding.UTF8.GetBytes(xmlContent));
                         WriteLog(string.Format("Xuất XML lượt khám: {0}\nĐường dẫn file: {1}", maLK, saveFile.FileName), true);
                         #endregion
                     }
@@ -370,22 +371,6 @@ namespace XML130.XML
             }
             return page;
         }
-
-        private void GridView_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
-        {
-            if (sender is CustomGridView gridView)
-            {
-                if (gridView.GetRow(e.RowHandle) is DataRowView dr)
-                {
-                    string error = dr["THONGTIN_LOI"].ToString();
-                    if (error.Contains(e.Column.FieldName))
-                    {
-                        e.Appearance.BackColor = Color.Red;
-                        e.Appearance.ForeColor = Color.Yellow;
-                    }
-                }
-            }
-        }
         #endregion
         #region Events
         private void FrmQuanLyXml_Load(object sender, EventArgs e)
@@ -418,6 +403,21 @@ namespace XML130.XML
         private void cboXmlTypes_SelectedIndexChanged(object sender, EventArgs e)
         {
             OnLoadFromDB();
+        }
+        private void GridView_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+        {
+            if (sender is CustomGridView gridView)
+            {
+                if (gridView.GetRow(e.RowHandle) is DataRowView dr)
+                {
+                    string error = dr["THONGTIN_LOI"].ToString();
+                    if (error.Contains(e.Column.FieldName))
+                    {
+                        e.Appearance.BackColor = Color.Red;
+                        e.Appearance.ForeColor = Color.Yellow;
+                    }
+                }
+            }
         }
         #endregion
     }
@@ -1168,11 +1168,12 @@ namespace XML130.XML
                 writerXml.WriteEndDocument();
                 writerXml.Flush();
             }
+            string xmlContent = sbFileHoSoXml.ToString().Replace("encoding=\"utf-16\"", "encoding=\"utf-8\"");
             if (!string.IsNullOrWhiteSpace(xmlTypePath))
             {
-                File.WriteAllText(xmlTypePath, sbFileHoSoXml.ToString());
+                File.WriteAllText(xmlTypePath, xmlContent);
             }
-            return Convert.ToBase64String(Encoding.UTF8.GetBytes(sbFileHoSoXml.ToString()));
+            return Convert.ToBase64String(Encoding.UTF8.GetBytes(xmlContent));
         }
     }
     public class ClientHelper
