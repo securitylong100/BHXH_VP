@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -351,8 +352,12 @@ namespace XML130.XML
         private TabNavigationPage AddPage(int index, string caption, object dataSource)
         {
             CustomGridControl gridControl = new CustomGridControl { Dock = DockStyle.Fill };
-            gridControl.MainView = new CustomGridView() { GridControl = gridControl };
+            CustomGridView gridView = new CustomGridView() { GridControl = gridControl };
+            gridView.OptionsView.ColumnAutoWidth = false;
+            gridControl.MainView = gridView;
             gridControl.DataSource = dataSource;
+            gridView.BestFitColumns();
+            gridView.CustomDrawCell += GridView_CustomDrawCell;
             TabNavigationPage page = new TabNavigationPage() { Caption = caption };
             page.Controls.Add(gridControl);
             if (index < tcXmls.Pages.Count)
@@ -364,6 +369,22 @@ namespace XML130.XML
                 tcXmls.Pages.Add(page);
             }
             return page;
+        }
+
+        private void GridView_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+        {
+            if (sender is CustomGridView gridView)
+            {
+                if (gridView.GetRow(e.RowHandle) is DataRowView dr)
+                {
+                    string error = dr["THONGTIN_LOI"].ToString();
+                    if (error.Contains(e.Column.FieldName))
+                    {
+                        e.Appearance.BackColor = Color.Red;
+                        e.Appearance.ForeColor = Color.Yellow;
+                    }
+                }
+            }
         }
         #endregion
         #region Events
@@ -517,6 +538,7 @@ namespace XML130.XML
             dt.TableName = xmlType;
             return dt;
         }
+
         public static Dictionary<string, List<ClsXmlError>> ValidateXml(ref DataSet dsXmlFile)
         {
             Dictionary<string, List<ClsXmlError>> dictErrors = new Dictionary<string, List<ClsXmlError>>();
