@@ -344,6 +344,7 @@
       <DependentUpon>rptChiDinh.cs</DependentUpon>
     </Compile>
     <Compile Include="System.cs" />
+    <Compile Include="XML\ClientHelper.cs" />
     <Compile Include="XML\FrmDmQD130_ImportXml.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -356,6 +357,7 @@
     <Compile Include="XML\FrmQuanLyXml.Designer.cs">
       <DependentUpon>FrmQuanLyXml.cs</DependentUpon>
     </Compile>
+    <Compile Include="XML\XmlHelper.cs" />
     <EmbeddedResource Include="FrmChangePassword.resx">
       <DependentUpon>FrmChangePassword.cs</DependentUpon>
     </EmbeddedResource>
