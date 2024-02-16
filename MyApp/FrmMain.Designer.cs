@@ -107,6 +107,13 @@
             this.btnBuoc2 = new DevExpress.XtraBars.BarButtonItem();
             this.btnBuoc3 = new DevExpress.XtraBars.BarButtonItem();
             this.btnBuoc5 = new DevExpress.XtraBars.BarButtonItem();
+            this.barSubItem11 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem12 = new DevExpress.XtraBars.BarSubItem();
+            this.btnChamCong_DmNhanVien = new DevExpress.XtraBars.BarButtonItem();
+            this.barSubItem14 = new DevExpress.XtraBars.BarSubItem();
+            this.btnDLCC_HCVaoRa = new DevExpress.XtraBars.BarButtonItem();
+            this.btnDLCC_LogCC = new DevExpress.XtraBars.BarButtonItem();
+            this.barSubItem13 = new DevExpress.XtraBars.BarSubItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTime)).BeginInit();
@@ -126,7 +133,8 @@
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnDmDuLieu, "", true, true, true, 0, null, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnDmDanhMuc, "", true, true, true, 0, null, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem7),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2, true)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem11, true),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2)});
             this.bar.OptionsBar.AllowQuickCustomization = false;
             this.bar.OptionsBar.DisableCustomization = true;
             this.bar.OptionsBar.DrawDragBorder = false;
@@ -209,8 +217,15 @@
             this.btnDmQD130_PhuongPhapVoCam,
             this.barButtonItem23,
             this.btn_importXMLtoDB,
-            this.barButtonItem25});
-            this.barManager.MaxItemId = 127;
+            this.barButtonItem25,
+            this.barSubItem11,
+            this.btnChamCong_DmNhanVien,
+            this.barSubItem12,
+            this.barSubItem13,
+            this.barSubItem14,
+            this.btnDLCC_HCVaoRa,
+            this.btnDLCC_LogCC});
+            this.barManager.MaxItemId = 134;
             this.barManager.StatusBar = this.bar1;
             // 
             // btnAdd
@@ -868,7 +883,7 @@
             this.barSubItem7.Name = "barSubItem7";
             this.barSubItem7.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem24
+            // btn_importXMLtoDB
             // 
             this.btn_importXMLtoDB.Caption = "Nhập XML vào CSDL";
             this.btn_importXMLtoDB.Id = 125;
@@ -880,7 +895,6 @@
             this.barButtonItem25.Caption = "barButtonItem25";
             this.barButtonItem25.Id = 126;
             this.barButtonItem25.Name = "barButtonItem25";
-            
             // 
             // btnBuoc1A
             // 
@@ -924,6 +938,61 @@
             this.btnBuoc5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnBuoc5.ImageOptions.LargeImage")));
             this.btnBuoc5.Name = "btnBuoc5";
             this.btnBuoc5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnBuoc5_ItemClick);
+            // 
+            // barSubItem11
+            // 
+            this.barSubItem11.Caption = "Quản lý Chấm công";
+            this.barSubItem11.Id = 127;
+            this.barSubItem11.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barSubItem11.ImageOptions.SvgImage")));
+            this.barSubItem11.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem12),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem14)});
+            this.barSubItem11.Name = "barSubItem11";
+            this.barSubItem11.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            // 
+            // barSubItem12
+            // 
+            this.barSubItem12.Caption = "Danh mục chấm công";
+            this.barSubItem12.Id = 129;
+            this.barSubItem12.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnChamCong_DmNhanVien)});
+            this.barSubItem12.Name = "barSubItem12";
+            // 
+            // btnChamCong_DmNhanVien
+            // 
+            this.btnChamCong_DmNhanVien.Caption = "Danh mục nhân viên";
+            this.btnChamCong_DmNhanVien.Id = 128;
+            this.btnChamCong_DmNhanVien.Name = "btnChamCong_DmNhanVien";
+            this.btnChamCong_DmNhanVien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnChamCong_DmNhanVien_ItemClick);
+            // 
+            // barSubItem14
+            // 
+            this.barSubItem14.Caption = "Dữ liệu chấm công";
+            this.barSubItem14.Id = 131;
+            this.barSubItem14.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnDLCC_HCVaoRa),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnDLCC_LogCC)});
+            this.barSubItem14.Name = "barSubItem14";
+            // 
+            // btnDLCC_HCVaoRa
+            // 
+            this.btnDLCC_HCVaoRa.Caption = "Chấm công hành chính vào - ra";
+            this.btnDLCC_HCVaoRa.Id = 132;
+            this.btnDLCC_HCVaoRa.Name = "btnDLCC_HCVaoRa";
+            this.btnDLCC_HCVaoRa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDLCC_HCVaoRa_ItemClick);
+            // 
+            // btnDLCC_LogCC
+            // 
+            this.btnDLCC_LogCC.Caption = "Lịch sử chấm công";
+            this.btnDLCC_LogCC.Id = 133;
+            this.btnDLCC_LogCC.Name = "btnDLCC_LogCC";
+            this.btnDLCC_LogCC.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDLCC_LogCC_ItemClick);
+            // 
+            // barSubItem13
+            // 
+            this.barSubItem13.Caption = "barSubItem13";
+            this.barSubItem13.Id = 130;
+            this.barSubItem13.Name = "barSubItem13";
             // 
             // FrmMain
             // 
@@ -1031,5 +1100,12 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem23;
         private DevExpress.XtraBars.BarButtonItem btn_importXMLtoDB;
         private DevExpress.XtraBars.BarButtonItem barButtonItem25;
+        private DevExpress.XtraBars.BarSubItem barSubItem11;
+        private DevExpress.XtraBars.BarSubItem barSubItem12;
+        private DevExpress.XtraBars.BarButtonItem btnChamCong_DmNhanVien;
+        private DevExpress.XtraBars.BarSubItem barSubItem14;
+        private DevExpress.XtraBars.BarButtonItem btnDLCC_HCVaoRa;
+        private DevExpress.XtraBars.BarButtonItem btnDLCC_LogCC;
+        private DevExpress.XtraBars.BarSubItem barSubItem13;
     }
 }

@@ -67,7 +67,15 @@
         public static readonly string FrmBCMau2Title = "Mẫu số 2: Kiểm tra khi chế biến thức ăn";
         public static readonly string FrmBCMau3Title = "Mẫu số 3: Kiểm tra trước khi ăn";
         public static readonly string FrmBCMau4Title = "Mẫu số 4: Nhãn mẫu thức ăn lưu";
-        public static readonly string FrmBCMau5Title = "Mẫu số 5: Mẫu biểu theo dõi lưu và hủy mẫu thức ăn lưu";  
+        public static readonly string FrmBCMau5Title = "Mẫu số 5: Mẫu biểu theo dõi lưu và hủy mẫu thức ăn lưu";
+
+
+
+        // tiêu đề quản lý chấm công
+        public static readonly string DLCC_LogChamCong = "Lịch sử chấm công nhân viên";
+        public static readonly string DLCC_HanhChinh_Vao_Ra = "Danh sách chấm công hành chính vào - ra";
+        public static readonly string DMCC_NhanVien = "Danh sách nhân viên chấm công";
+
 
 
         public static readonly string AddTitle = "Tạo mới";
