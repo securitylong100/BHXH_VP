@@ -48,6 +48,7 @@ namespace XML130.Func
             //add 2 columns
             this.colDiMuon = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colVeSom = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colKhongCham = new DevExpress.XtraGrid.Columns.GridColumn();
             //end 2 columns
             this.colGhiChu = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colLogChamCong = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -210,6 +211,7 @@ namespace XML130.Func
             //add 2 columns
             this.colDiMuon,
             this.colVeSom,
+            this.colKhongCham,
             //end 2 columns
             this.colGhiChu,
             this.colLogChamCong});
@@ -217,6 +219,7 @@ namespace XML130.Func
             this.customGridView.Name = "customGridView";
             this.customGridView.OptionsView.ShowGroupPanel = false;
             this.customGridView.RowHeight = 27;
+           
             // 
             // colKhoaPhong
             // 
@@ -350,13 +353,21 @@ namespace XML130.Func
             this.colVeSom.VisibleIndex = 14;
             this.colVeSom.Width = 62;
             //
+            //
+            this.colKhongCham.Caption = "Không Chấm";
+            this.colKhongCham.FieldName = "KhongCham";
+            this.colKhongCham.Name = "colKhongCham";
+            this.colKhongCham.Visible = true;
+            this.colKhongCham.VisibleIndex = 15;
+            this.colKhongCham.Width = 62;
+            //
             // colGhiChu
             // 
             this.colGhiChu.Caption = "Ghi chú";
             this.colGhiChu.FieldName = "TrangThai";
             this.colGhiChu.Name = "colGhiChu";
             this.colGhiChu.Visible = true;
-            this.colGhiChu.VisibleIndex = 15;
+            this.colGhiChu.VisibleIndex = 16;
             this.colGhiChu.Width = 121;
             // 
             // colLogChamCong
@@ -365,7 +376,7 @@ namespace XML130.Func
             this.colLogChamCong.FieldName = "LogChamCong";
             this.colLogChamCong.Name = "colLogChamCong";
             this.colLogChamCong.Visible = true;
-            this.colLogChamCong.VisibleIndex = 16;
+            this.colLogChamCong.VisibleIndex = 17;
             this.colLogChamCong.Width = 214;
             // 
             // FrmChamCong_DLCC_HCVaoRa
@@ -412,6 +423,7 @@ namespace XML130.Func
         private DevExpress.XtraGrid.Columns.GridColumn colTongPhut;
         private DevExpress.XtraGrid.Columns.GridColumn colDiMuon;
         private DevExpress.XtraGrid.Columns.GridColumn colVeSom;
+        private DevExpress.XtraGrid.Columns.GridColumn colKhongCham;
         private DevExpress.XtraGrid.Columns.GridColumn colLogChamCong;
     }
 }

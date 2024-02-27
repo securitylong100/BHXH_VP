@@ -79,22 +79,28 @@ namespace XML130.Func
 	                        ,IIF(InTime is null,NULL,  CONCAT (SUBSTRING(CONVERT(varchar(40),InTime),11,3),'h',SUBSTRING(CONVERT(varchar(40),InTime),15,2))) as InTime
 	                        ,IIF(OutTime is null,NULL,  CONCAT (SUBSTRING(CONVERT(varchar(40),OutTime),11,3),'h',SUBSTRING(CONVERT(varchar(40),OutTime),15,2))) as OutTime
                         -- hết sửa 643
-	                        ,TongGio,TongPhut
-	                        ,case when DiTre < 0 then DiTre else null end DiMuon
-	                        ,case when VeSom < 0 then VeSom else null end VeSom
+                            ,TongGio,TongPhut
+	                        ,case when DiTre < 0 then abs(DiTre) else null end DiMuon
+							,case when VeSom < 0 then abs(VeSom) else null end VeSom
 	                        ,LogChamCong
+							-- hàm xử lý không chấm
 	                        ,case when InTime is null then N'Thiếu giờ vào'
 		                          when OutTime is null then N'Thiếu giờ ra'
-		                          when DiTre < 0 and VeSom > 0  then concat(N'Trễ ',abs(DiTre),N' phút')
+		                          when DiTre < 0 and VeSom > 0  then concat(N'Đi muộn ',abs(DiTre),N' phút')
 		                          when VeSom < 0 and DiTre > 0 then concat(N'Về sớm ',abs(VeSom),N' phút')
-		                          when VeSom < 0 and DiTre < 0 then concat(N'Trễ ',abs(DiTre),N' phút') + concat(N' ;Về sớm ',abs(VeSom),N' phút')
+		                          when VeSom < 0 and DiTre < 0 then concat(N'Đi muộn ',abs(DiTre),N' phút') + concat(N' ;Về sớm ',abs(VeSom),N' phút')
 		                          else null end TrangThai
+							,case 	
+								    when InTime is null or OutTime is null  then '1'	
+		                          else null end KhongCham
+
+ 
                         from(
 	                        select b.TenKhoaPhong,b.MaNv,b.UserEnrollNumber,b.TenNv,b.ChucVu,b.NgaySinh
 		                        ,case b.GioiTinh when 1 then N'Nam' when 2 then N'Nữ' else N'Không xác định' end as GioiTinh2
 		                        ,a.Thu,a.TimeDate,a.OffsetIn,a.InTime,a.OffsetOut,a.OutTime
-		                        ,DATEDIFF(HOUR,a.InTime,a.OutTime) as TongGio
-		                        ,DATEDIFF(MINUTE,a.InTime,a.OutTime) as TongPhut
+		                        ,case when convert(int,format(TimeDate,'MMdd')) between 416 and 1015 then DATEDIFF(HOUR,a.InTime,a.OutTime)-2 else DATEDIFF(HOUR,a.InTime,a.OutTime)-1 end  TongGio
+		                        ,case when convert(int,format(TimeDate,'MMdd')) between 416 and 1015 then DATEDIFF(MINUTE,a.InTime,a.OutTime)-120 else DATEDIFF(MINUTE,a.InTime,a.OutTime)-60  end TongPhut
 		                        ,case when b.DBFlg=1 and TimeDate between b.DBStartTime and b.DBEndTime
 			                          then datediff(minute,a.InTime,dateadd(minute,30,a.OffsetIn))
 			                          else datediff(minute,a.InTime,a.OffsetIn) end DiTre
@@ -104,7 +110,7 @@ namespace XML130.Func
 			                          then datediff(minute,dateadd(hour,1,a.OffsetOut),a.OutTime)
 			                          else datediff(minute,a.OffsetOut,a.OutTime) end VeSom
 		                        ,a.LogChamCong
-	                        from [130L].[dbo].[tblNhanVien] b
+	                        from [dbo].[tblNhanVien] b
 	                        join tbl_chamcong a
 	                        on b.UserEnrollNumber=a.UserEnrollNumber
                         ) c where 1=1 and";
@@ -120,6 +126,7 @@ namespace XML130.Func
                 customGridControl.DataSource = dataTable;
 
                 EasyCommon.BestFitColumnsGridView(customGridView);
+                customGridView.CustomDrawCell += customGridView_CustomDrawCell;
 
             }
             catch (Exception exception)
@@ -127,7 +134,17 @@ namespace XML130.Func
                 EasyDialog.ShowErrorDialog("Phát sinh lỗi. (" + exception.Message + ")");
             }
         }
-
+        private void customGridView_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+        {
+            if (customGridView.RowCount == 0) return;
+            string _color = customGridView.GetRowCellValue(customGridView.FocusedRowHandle, "TrangThai") == null ? "" : customGridView.GetRowCellValue(customGridView.FocusedRowHandle, "TrangThai").ToString();
+           
+            if (_color.Length >0)
+            {
+                e.Appearance.BackColor = Color.Yellow;
+            }
+          
+        }
         protected override void OnReload()
         {
             OnInit();
