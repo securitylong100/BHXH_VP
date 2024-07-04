@@ -90,12 +90,12 @@ namespace XML130.XML
                 CheckFileExists = true,
                 CheckPathExists = true,
                 FileName = "Chọn file xml",
-                Title = "Tải dữ liệu Xml",
+                Title = "Tải dữ liệu XML130",
                 Filter = "XML Document (*.xml)|*.xml|All file (*.*)|*.*"
             };
             if (openFile.ShowDialog() == DialogResult.OK)
             {
-                EasyLoadWait.ShowWaitForm("Đang import", this);
+                EasyLoadWait.ShowWaitForm("Đang import dữ liệu XML130", this);
                 try
                 {
                     _dsXmlFile = XmlHelper.LoadXmlFile(openFile.FileName);
@@ -122,7 +122,7 @@ namespace XML130.XML
                 CheckFileExists = false,
                 CheckPathExists = false,
                 FileName = "Chọn thư mục",
-                Title = "Chọn thư mục chứa file xml cần import",
+                Title = "Chọn thư mục chứa dữ liệu XML130 cần import",
             };
             if (openFolder.ShowDialog() == DialogResult.OK)
             {
@@ -265,6 +265,7 @@ namespace XML130.XML
                 {
                     foreach (DataRow drGiamDinhHS in _dsXmlFile.Tables["XML_GIAMDINHHS"].Rows)
                     {
+                        string maBN = string.Empty;
                         string maCSKCB = drGiamDinhHS["MACSKCB"].ToString();
                         string maLK = drGiamDinhHS["MA_LK"].ToString();
                         string ngayLap = drGiamDinhHS["NGAYLAP"].ToString();
@@ -278,47 +279,59 @@ namespace XML130.XML
                             {
                                 writerHoSoXml.WriteStartDocument();
                                 writerHoSoXml.WriteStartElement("GIAMDINHHS");
-
-                                writerHoSoXml.WriteStartElement("THONGTINDONVI");
-                                writerHoSoXml.WriteElementString("MACSKCB", maCSKCB);
-                                writerHoSoXml.WriteEndElement();
-
-                                writerHoSoXml.WriteStartElement("THONGTINHOSO");
-                                if (DateTime.TryParse(ngayLap, out DateTime dtValue))
                                 {
-                                    ngayLap = dtValue.ToString("yyyyMMdd");
-                                }
-                                writerHoSoXml.WriteElementString("NGAYLAP", ngayLap);
-                                writerHoSoXml.WriteElementString("SOLUONGHOSO", soLuongHoSo);
-
-                                writerHoSoXml.WriteStartElement("DANHSACHHOSO");
-                                writerHoSoXml.WriteStartElement("HOSO");
-
-                                foreach (DataTable dtXmlType in _dsXmlFile.Tables)
-                                {
-                                    if (dtXmlType.TableName != "XML_GIAMDINHHS"
-                                        && dtXmlType.Rows.Cast<DataRow>().Any(dr => maLK == dr["MA_LK"].ToString()))
+                                    writerHoSoXml.WriteStartElement("THONGTINDONVI");
                                     {
-                                        writerHoSoXml.WriteStartElement("FILEHOSO");
-                                        writerHoSoXml.WriteElementString("LOAIHOSO", dtXmlType.TableName);
-                                        string xmlBase64 = XmlHelper.WriteXmlType2Xml(dtXmlType.TableName, dtXmlType, maLK);
-                                        writerHoSoXml.WriteElementString("NOIDUNGFILE", xmlBase64);
+                                        writerHoSoXml.WriteElementString("MACSKCB", maCSKCB);
                                         writerHoSoXml.WriteEndElement();
                                     }
+
+                                    writerHoSoXml.WriteStartElement("THONGTINHOSO");
+                                    {
+                                        if (DateTime.TryParse(ngayLap, out DateTime dtValue))
+                                        {
+                                            ngayLap = dtValue.ToString("yyyyMMdd");
+                                        }
+                                        writerHoSoXml.WriteElementString("NGAYLAP", ngayLap);
+                                        writerHoSoXml.WriteElementString("SOLUONGHOSO", soLuongHoSo);
+
+                                        writerHoSoXml.WriteStartElement("DANHSACHHOSO");
+                                        {
+                                            writerHoSoXml.WriteStartElement("HOSO");
+
+                                            foreach (DataTable dtXmlType in _dsXmlFile.Tables)
+                                            {
+                                                if (dtXmlType.TableName == "XML1")
+                                                {
+                                                    maBN = dtXmlType.Rows[0]["MA_BN"].ToString();
+                                                }
+                                                if (dtXmlType.TableName != "XML_GIAMDINHHS"
+                                                    && dtXmlType.Rows.Cast<DataRow>().Any(dr => maLK == dr["MA_LK"].ToString()))
+                                                {
+                                                    writerHoSoXml.WriteStartElement("FILEHOSO");
+                                                    writerHoSoXml.WriteElementString("LOAIHOSO", dtXmlType.TableName);
+                                                    string xmlBase64 = XmlHelper.WriteXmlType2Xml(dtXmlType.TableName, dtXmlType, maLK);
+                                                    writerHoSoXml.WriteElementString("NOIDUNGFILE", xmlBase64);
+                                                    writerHoSoXml.WriteEndElement();
+                                                }
+                                            }
+
+                                            writerHoSoXml.WriteEndElement();
+                                        }
+                                        writerHoSoXml.WriteEndElement();
+                                    }
+                                    writerHoSoXml.WriteEndElement();
+                                    writerHoSoXml.WriteStartElement("CHUKYDONVI");
+                                    {
+                                    }
                                 }
-
-                                writerHoSoXml.WriteEndElement();
-                                writerHoSoXml.WriteEndElement();
-
-                                writerHoSoXml.WriteEndElement();
-
                                 writerHoSoXml.WriteEndElement();
                                 writerHoSoXml.WriteEndDocument();
                                 writerHoSoXml.Flush();
                             }
                             string xmlContent = sbXmlHoSo.ToString().Replace("encoding=\"utf-16\"", "encoding=\"utf-8\"");
                             string xmlFolder = Path.GetDirectoryName(saveFile.FileName);
-                            string xmlFilePath = Path.Combine(xmlFolder, string.Format("{0}.xml", maLK));
+                            string xmlFilePath = Path.Combine(xmlFolder, string.Format("RE_VAS_CheckOut_{0}_{1}_{2}.xml",maCSKCB, maBN, maLK));
                             File.WriteAllText(xmlFilePath, xmlContent);
                             //_base64HoSoXml = Convert.ToBase64String(Encoding.UTF8.GetBytes(xmlContent));
                             WriteLog(string.Format("Xuất XML lượt khám: {0}\nĐường dẫn file: {1}", maLK, xmlFilePath), true);

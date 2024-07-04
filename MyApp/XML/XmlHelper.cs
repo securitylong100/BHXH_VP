@@ -779,8 +779,11 @@ namespace XML130.XML
                     writerXml.WriteStartElement(rowName);
                     foreach (DataColumn col in dtXmlType.Columns)
                     {
-                        string value = drXmlType[col].ToString();
-                        writerXml.WriteElementString(col.ColumnName, value);
+                        if (col.ColumnName != "MA_LOI" && col.ColumnName != "THONGTIN_LOI")
+                        {
+                            string value = drXmlType[col].ToString();
+                            writerXml.WriteElementString(col.ColumnName, value);
+                        }
                     }
                     writerXml.WriteEndElement();
                 }
