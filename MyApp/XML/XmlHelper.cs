@@ -123,52 +123,77 @@ namespace XML130.XML
         public static Dictionary<string, List<ClsXmlError>> ValidateXml(ref DataSet dsXmlFile)
         {
             Dictionary<string, List<ClsXmlError>> dictErrors = new Dictionary<string, List<ClsXmlError>>();
+            /// Tải master mã lỗi cha/ mã lỗi con từ databas
             DataTable dtErrors = SQLHelper.ExecuteDataTable("SELECT * FROM XMLERROR");
             if (dtErrors != null && dtErrors.Rows.Count > 0)
             {
+                /// Duyệt các file XML
                 foreach (DataTable dtXml in dsXmlFile.Tables)
                 {
                     if (!dictErrors.ContainsKey(dtXml.TableName))
                     {
                         dictErrors.Add(dtXml.TableName, new List<ClsXmlError>());
                     }
+                    /// Duyệt từng dòng dữ liệu của XML
                     foreach (DataRow dr in dtXml.Rows)
                     {
                         List<ClsXmlError> lstRowErrors = new List<ClsXmlError>();
+                        /// Duyệt từng mã lỗi
                         foreach (DataRow drError in dtErrors.Rows)
                         {
                             ClsXmlError error = new ClsXmlError()
                             {
+                                /// Tên trường cần kiểm tra
                                 Item = drError["ITEM"].ToString(),
+                                /// Tên file XML
                                 XmlType = drError["XML"].ToString(),
+                                /// Mã lỗi cha
                                 MaLoiCha = drError["MA_LOI_CHA"].ToString(),
+                                /// Mã lỗi con
                                 MaLoiCon = drError["MA_LOI_CON"].ToString(),
+                                /// Chi tiết lỗi
                                 NoiDungLoi = drError["NOI_DUNG_LOI"].ToString(),
                             };
+                            /// Chỉ xử lý các lỗi tương ứng với file XML đang duyệt
                             if (error.XmlType == dtXml.TableName)
                             {
+                                /// Lấy giá trị trường cần kiểm tra của dòng dữ liệu hiện tại
                                 string value = dr[error.Item].ToString();
+                                /// Mặc định thì nếu trường cần kiểm tra không có dữ liệu sẽ thêm lỗi vào danh sách
                                 if (string.IsNullOrWhiteSpace(value))
                                 {
                                     lstRowErrors.Add(error);
                                 }
+                                /// Thực hiện xử lý lỗi cho từng trường hợp dựa trên mã lỗi con
                                 switch (error.MaLoiCon)
                                 {
                                     #region XML1
+                                    /// GIOI_TINH không tồn tại ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp GIOI_TINH trống thì cả 2 lỗi 105001 và 105002 được thêm vào danh sách
                                     case "105002":
                                         {
+                                            /// Trường hợp cột GIOI_TINH có dữ liệu nhưng nằm ngoài các trường hợp 1,2,3 thì thêm lỗi vào danh sách
                                             if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstRowErrors.Add(error);
                                             break;
                                         }
+                                    /// MA_QUOCTICH không tồn tại trong danh mục ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp MA_QUOCTICH trống thì cả 2 lỗi 108001 và 108002 được thêm vào danh sách
                                     case "108002":
                                         {
+                                            /// Lấy TEN_QUOCTICH dựa trên MA_QUOC_TICH
+                                            /// Nếu TEN_QUOCTICH không tồn tại thì thêm lỗi vào danh sách
                                             string sql = string.Format("SELECT [TEN_QUOCTICH] FROM tblDmQD130_QuocTich WHERE [MA_QUOCTICH]='{0}' ", value);
                                             string quocTich = SQLHelper.ExecuteScalar<string>(sql);
                                             if (string.IsNullOrWhiteSpace(quocTich)) lstRowErrors.Add(error);
                                             break;
                                         }
+                                    /// MA_NGHE_NGHIEP không tồn tại trong danh mục ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp MA_NGHE_NGHIEP trống thì cả 2 lỗi 110001 và 110002 được thêm vào danh sách
                                     case "110002":
                                         {
+                                            /// Nếu MA_NGHE_NGHIEP = 00000 thì không kiểm tra
+                                            /// Các trường hợp khác thì lấy TEN_NGHE_NGHIEP dựa trên MA_NGHE_NGHIEP
+                                            /// Nếu TEN_NGHE_NGHIEP không tồn tại thì thêm lỗi vào danh sách
                                             if (value != "00000")
                                             {
                                                 StringBuilder sb = new StringBuilder();
@@ -184,16 +209,24 @@ namespace XML130.XML
                                             }
                                             break;
                                         }
+                                    /// KET_QUA_DTRI không tồn tại ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp KET_QUA_DTRI trống thì cả 2 lỗi 140001 và 140002 được thêm vào danh sách
                                     case "140002":
                                         {
+                                            /// Nếu KET_QUA_DTRI không nằm trong 1~7 thì thêm lỗi vào danh sách
                                             if (!int.TryParse(value, out int kq) || kq < 1 || kq > 7) lstRowErrors.Add(error);
                                             break;
                                         }
+                                    /// MA_LOAI_RV không tồn tại ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp MA_LOAI_RV trống 141001 và 141002 được thêm vào danh sách
                                     case "141002":
                                         {
+                                            /// Nếu MA_LOAI_RV không nằm trong 1~5 thì thêm lỗi vào danh sách
                                             if (!int.TryParse(value, out int kq) || kq < 1 || kq > 5) lstRowErrors.Add(error);
                                             break;
                                         }
+                                    /// CAN_NANG phải là dạng số ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp CAN_NANG trống 159001 và 159002 được thêm vào danh sách
                                     case "159002":
                                         {
                                             if (!double.TryParse(value, out double kq)) lstRowErrors.Add(error);
@@ -201,16 +234,21 @@ namespace XML130.XML
                                         }
                                     #endregion
                                     #region XML2
+                                    /// MA_NHOM không tồn tại trong danh mục (lỗi này đã bị xóa trong database)
+                                    /// Trường hợp MA_NHOM trống 206001 được thêm vào danh sách
                                     case "206002":
                                         {
-                                            //MA_NHOM không tồn tại trong danh mục
                                             break;
                                         }
+                                    /// PHAM_VI không tồn tại trong danh mục ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp PHAM_VI trống 216001 và 216002 được thêm vào danh sách
                                     case "216002":
                                         {
                                             if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstRowErrors.Add(error);
                                             break;
                                         }
+                                    /// TYLE_TT_BH đang khác 0 với các hồ sơ ngoài phạm vi thanh toán BHYT
+                                    /// Trường hợp TYLE_TT_BH trống 217001 và 217002 được thêm vào danh sách
                                     case "217002":
                                         {
                                             string phamVi = dr["PHAM_VI"].ToString();
@@ -221,13 +259,17 @@ namespace XML130.XML
                                             }
                                             break;
                                         }
-                                    case "2310021":
+                                    /// MA_KHOA không tồn tại (lỗi này đã bị xóa trong database)
+                                    /// Trường hợp MA_KHOA trống 231001 và 231002 được thêm vào danh sách
+                                    case "231002":
                                         {
                                             string sql = string.Format("SELECT [TEN] FROM tblDmCSKCB_KhoaPhong WHERE [MA]='{0}' ", value);
                                             string tenKhoa = SQLHelper.ExecuteScalar<string>(sql);
                                             if (string.IsNullOrWhiteSpace(tenKhoa)) lstRowErrors.Add(error);
                                             break;
                                         }
+                                    /// MA_BAC_SI không tồn tại trong danh mục ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp MA_BAC_SI trống 232001 và 232002 được thêm vào danh sách
                                     case "232002":
                                         {
                                             string maBacsi = string.Join("','", value.Split(';'));
@@ -236,8 +278,11 @@ namespace XML130.XML
                                             if (string.IsNullOrWhiteSpace(tenBacsi)) lstRowErrors.Add(error);
                                             break;
                                         }
+                                    /// NGAY_YL không được nhỏ hơn ngày vào viện ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp NGAY_YL trống 234001, 234002 và 234003 được thêm vào danh sách
                                     case "234002":
                                         {
+                                            /// Lấy dữ liệu NGAY_VAO từ XML1 và so sánh với NGAY_YL
                                             if (dsXmlFile.Tables.Contains("XML1"))
                                             {
                                                 foreach (DataRow drXml1 in dsXmlFile.Tables["XML1"].Rows)
@@ -252,8 +297,11 @@ namespace XML130.XML
                                             }
                                             break;
                                         }
+                                    /// NGAY_YL không được lớn hơn ngày ra viện ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp NGAY_YL trống 234001, 234002 và 234003 được thêm vào danh sách
                                     case "234003":
                                         {
+                                            /// Lấy dữ liệu NGAY_VAO từ XML1 và so sánh với NGAY_YL
                                             if (dsXmlFile.Tables.Contains("XML1"))
                                             {
                                                 foreach (DataRow drXml1 in dsXmlFile.Tables["XML1"].Rows)
@@ -268,14 +316,131 @@ namespace XML130.XML
                                             }
                                             break;
                                         }
+                                    /// MA_PTTT không được để trống
                                     case "235001":
                                         {
                                             if (!int.TryParse(value, out int kq) || kq < 1 || kq > 3) lstRowErrors.Add(error);
                                             break;
                                         }
+                                    /// NGUON_CTRA không tồn tại trong danh mục ( mặc định lỗi này không được thêm vào danh sách )
+                                    /// Trường hợp NGUON_CTRA trống 236001 và 236002 được thêm vào danh sách
                                     case "236002":
                                         {
                                             if (!int.TryParse(value, out int kq) || kq < 1 || kq > 4) lstRowErrors.Add(error);
+                                            break;
+                                        }
+                                    #endregion
+                                    #region XML3
+                                    /// MA_VAT_TU không được để trống
+                                    case "305001":
+                                    /// TEN_VAT_TU không được để trống
+                                    case "308001":
+                                        {
+                                            /// Trường hợp MA_VAT_TU và TEN_VAT_TU trống nhưng MA_NHOM != 10 thì bỏ qua lỗi này
+                                            if (int.TryParse(dr["MA_NHOM"].ToString(), out int maNhom) && 10 != maNhom)
+                                            {
+                                                lstRowErrors.Remove(error);
+                                            }
+                                            break;
+                                        }
+                                    /// MA_DICH_VU không được để trống
+                                    case "303001":
+                                    /// TEN_DICH_VU không được để trống
+                                    case "309001":
+                                        {
+                                            /// Trường hợp MA_DICH_VU và TEN_DICH_VU trống nhưng MA_NHOM == 10 thì bỏ qua lỗi này
+                                            if (int.TryParse(dr["MA_NHOM"].ToString(), out int maNhom) && 10 == maNhom)
+                                            {
+                                                lstRowErrors.Remove(error);
+                                            }
+                                            break;
+                                        }
+                                    /// TT_THAU không được để trống
+                                    case "316001":
+                                    /// TT_THAU sai định dạng khi mã nhóm bằng 10 hoặc 11
+                                    case "316002":
+                                        {
+                                            /// Trường hợp TT_THAU trống 316001 và 316002 được thêm vào danh sách
+                                            /// Trường hợp TT_THAU trống nhưng MA_NHOM != 10 thì bỏ qua lỗi này
+                                            if (int.TryParse(dr["MA_NHOM"].ToString(), out int maNhom) && 10 != maNhom)
+                                            {
+                                                lstRowErrors.Remove(error);
+                                            }
+                                            break;
+                                        }
+                                    /// NGUOI_THUC_HIEN không được để trống khi mã nhóm bằng 1 2 3 8 18
+                                    case "334001":
+                                        {
+                                            /// Mảng chứa các MA_NHOM bắt buộc NGUOI_THUC_HIEN không được để trống
+                                            int[] nhomKhongDuocDeTrong = new int[] { 0, 1, 2, 3, 8, 18 };
+                                            /// Nếu MA_NHOM không nằm trong các nhóm bắt buộc thì bỏ qua lỗi này (trừ trường hợp trống)
+                                            if (int.TryParse(dr["MA_NHOM"].ToString(), out int maNhom)
+                                                && !nhomKhongDuocDeTrong.Contains(maNhom))
+                                            {
+                                                lstRowErrors.Remove(error);
+                                            }
+                                            break;
+                                        }
+                                    /// NGAY_TH_YL không được để trống khi mã nhóm bằng 1 2 3 8 18
+                                    case "337001":
+                                    /// NGAY_TH_YL không được nhỏ hơn ngày y lệnh
+                                    case "337002":
+                                        {
+                                            /// Trường hợp NGAY_TH_YL trống 337001 và 337002 được thêm vào danh sách
+                                            /// Mảng chứa các MA_NHOM bắt buộc NGAY_TH_YL không được để trống
+                                            int[] nhomKhongDuocDeTrong = new int[] { 0, 1, 2, 3, 8, 18 };
+                                            if (int.TryParse(dr["MA_NHOM"].ToString(), out int maNhom))
+                                            {
+                                                /// Nếu NGAY_TH_YL trống và MA_NHOM không nằm trong các nhóm bắt buộc thì bỏ qua
+                                                if (string.IsNullOrWhiteSpace(value))
+                                                {
+                                                    if (!nhomKhongDuocDeTrong.Contains(maNhom))
+                                                    {
+                                                        lstRowErrors.Remove(error);
+                                                    }
+                                                }
+                                                /// Trường hợp NGAY_TH_YL nhỏ hơn NGAY_YL thì thêm lỗi vào danh sách
+                                                else if (long.TryParse(value, out long ngayTHYL)
+                                                    && long.TryParse(dr["NGAY_YL"].ToString(), out long ngayYL)
+                                                    && ngayTHYL < ngayYL)
+                                                {
+                                                    lstRowErrors.Add(error);
+                                                }
+                                            }
+
+                                            break;
+                                        }
+                                    /// MA_GIUONG không đúng định dạng
+                                    case "332001":
+                                        {
+                                            /// Trường hợp MA_NHOM != 15 thì bỏ qua lỗi này
+                                            if (int.TryParse(dr["MA_NHOM"].ToString(), out int maNhom) && 15 != maNhom)
+                                            {
+                                                lstRowErrors.Remove(error);
+                                            }
+                                            break;
+                                        }
+                                    /// MA_MAY không đúng định dang
+                                    case "342001":
+                                        {
+                                            /// Mảng chứa các MA_NHOM cho phép MA_MAY được để trống
+                                            int[] nhomDuocDeTrong = new int[] { 7, 10, 11, 13 };
+                                            /// Nếu MA_NHOM không nằm trong các nhóm này thì bỏ qua lỗi này
+                                            if (int.TryParse(dr["MA_NHOM"].ToString(), out int maNhom)
+                                                && nhomDuocDeTrong.Contains(maNhom))
+                                            {
+                                                lstRowErrors.Remove(error);
+                                            }
+                                            break;
+                                        }
+                                    /// TAI_SU_DUNG không tồn tại trong danh mục
+                                    case "343001":
+                                        {
+                                            /// Trường hợp MA_NHOM != 11 thì bỏ qua lỗi này
+                                            if (int.TryParse(dr["MA_NHOM"].ToString(), out int maNhom) && 11 != maNhom)
+                                            {
+                                                lstRowErrors.Remove(error);
+                                            }
                                             break;
                                         }
                                     #endregion
@@ -779,7 +944,7 @@ namespace XML130.XML
                     writerXml.WriteStartElement(rowName);
                     foreach (DataColumn col in dtXmlType.Columns)
                     {
-                        if (col.ColumnName != "MA_LOI" && col.ColumnName != "THONGTIN_LOI")
+                        if (!col.ColumnName.EndsWith("_Id") && col.ColumnName != "MA_LOI" && col.ColumnName != "THONGTIN_LOI") // bỏ _Id
                         {
                             string value = drXmlType[col].ToString();
                             writerXml.WriteElementString(col.ColumnName, value);

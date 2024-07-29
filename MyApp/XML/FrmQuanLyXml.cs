@@ -310,7 +310,7 @@ namespace XML130.XML
                                                 {
                                                     writerHoSoXml.WriteStartElement("FILEHOSO");
                                                     writerHoSoXml.WriteElementString("LOAIHOSO", dtXmlType.TableName);
-                                                    string xmlBase64 = XmlHelper.WriteXmlType2Xml(dtXmlType.TableName, dtXmlType, maLK);
+                                                    string xmlBase64 = XmlHelper.WriteXmlType2Xml(dtXmlType.TableName, dtXmlType, maLK, null, new XmlWriterSettings() { Indent = true }); // sửa enter xml xuống dòng
                                                     writerHoSoXml.WriteElementString("NOIDUNGFILE", xmlBase64);
                                                     writerHoSoXml.WriteEndElement();
                                                 }
@@ -331,7 +331,7 @@ namespace XML130.XML
                             }
                             string xmlContent = sbXmlHoSo.ToString().Replace("encoding=\"utf-16\"", "encoding=\"utf-8\"");
                             string xmlFolder = Path.GetDirectoryName(saveFile.FileName);
-                            string xmlFilePath = Path.Combine(xmlFolder, string.Format("RE_VAS_CheckOut_{0}_{1}_{2}.xml",maCSKCB, maBN, maLK));
+                            string xmlFilePath = Path.Combine(xmlFolder, string.Format("RE_VAS_CheckOut_{0}_{1}_{2}.xml", maCSKCB, maBN, maLK));
                             File.WriteAllText(xmlFilePath, xmlContent);
                             //_base64HoSoXml = Convert.ToBase64String(Encoding.UTF8.GetBytes(xmlContent));
                             WriteLog(string.Format("Xuất XML lượt khám: {0}\nĐường dẫn file: {1}", maLK, xmlFilePath), true);
@@ -512,6 +512,10 @@ namespace XML130.XML
                     {
                         e.Appearance.BackColor = Color.Red;
                         e.Appearance.ForeColor = Color.Yellow;
+                    }
+                    if (e.Column.FieldName == "THONGTIN_LOI" || e.Column.FieldName == "MA_LOI")
+                    {
+                        e.Appearance.ForeColor = Color.Red;
                     }
                 }
             }
